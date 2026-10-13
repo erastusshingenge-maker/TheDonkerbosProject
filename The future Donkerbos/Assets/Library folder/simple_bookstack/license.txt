@@ -1,0 +1,11 @@
+Model Information:
+* title:	Simple bookstack
+* source:	https://sketchfab.com/3d-models/simple-bookstack-39f022bceff044c486f2d15498ec441b
+* author:	¡Jacques (https://sketchfab.com/iJacques)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Simple bookstack" (https://sketchfab.com/3d-models/simple-bookstack-39f022bceff044c486f2d15498ec441b) by ¡Jacques (https://sketchfab.com/iJacques) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

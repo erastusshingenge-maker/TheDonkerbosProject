@@ -1,0 +1,11 @@
+Model Information:
+* title:	Building Apartment 13
+* source:	https://sketchfab.com/3d-models/building-apartment-13-c6ccc9af5b5c4a10b7b34964d9261c16
+* author:	LowlyPoly (https://sketchfab.com/lowlypoly)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Building Apartment 13" (https://sketchfab.com/3d-models/building-apartment-13-c6ccc9af5b5c4a10b7b34964d9261c16) by LowlyPoly (https://sketchfab.com/lowlypoly) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

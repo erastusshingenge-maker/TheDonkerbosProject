@@ -1,0 +1,8 @@
+Model Information:
+* title:	Silent hill-library
+* source:	https://sketchfab.com/3d-models/silent-hill-library-7e32428e18b24ee8a83d5c2ecb5dd3e6
+* author:	Pasha (https://sketchfab.com/Pasha.)
+
+Model License:
+* license type:	SKETCHFAB Standard (https://sketchfab.com/licenses)
+* requirements:	Under basic restrictions, use worldwide, on all types of media, commercially or not, and in all types of derivative works

@@ -1,0 +1,8 @@
+Model Information:
+* title:	Medieval library kit
+* source:	https://sketchfab.com/3d-models/medieval-library-kit-c018093ba87d45f28f30ec8acf2f6604
+* author:	Rinku Choudhary (https://sketchfab.com/choudharyrinku816)
+
+Model License:
+* license type:	SKETCHFAB Standard (https://sketchfab.com/licenses)
+* requirements:	Under basic restrictions, use worldwide, on all types of media, commercially or not, and in all types of derivative works

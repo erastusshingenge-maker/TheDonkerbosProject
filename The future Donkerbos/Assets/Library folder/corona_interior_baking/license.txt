@@ -1,0 +1,11 @@
+Model Information:
+* title:	Corona Interior Baking
+* source:	https://sketchfab.com/3d-models/corona-interior-baking-6a6a91c2e8f24e6092baab9853f0c3ed
+* author:	David Zager (https://sketchfab.com/zager_dk)
+
+Model License:
+* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+* requirements:	Author must be credited. No commercial use.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Corona Interior Baking" (https://sketchfab.com/3d-models/corona-interior-baking-6a6a91c2e8f24e6092baab9853f0c3ed) by David Zager (https://sketchfab.com/zager_dk) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)

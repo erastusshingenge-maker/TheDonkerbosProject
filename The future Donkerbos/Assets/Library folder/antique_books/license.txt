@@ -1,0 +1,11 @@
+Model Information:
+* title:	Antique Books
+* source:	https://sketchfab.com/3d-models/antique-books-5bf5df4d16864143a7d1ff11bdc201ea
+* author:	SergeiKritzien (https://sketchfab.com/SergeiKritzien)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Antique Books" (https://sketchfab.com/3d-models/antique-books-5bf5df4d16864143a7d1ff11bdc201ea) by SergeiKritzien (https://sketchfab.com/SergeiKritzien) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

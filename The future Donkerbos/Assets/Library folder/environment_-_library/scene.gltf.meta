@@ -1,0 +1,281 @@
+fileFormatVersion: 2
+guid: 7ec04dfaa4ea9430697bb14cbfce462b
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 715df9372183c47e389bb6e19fbc3b52, type: 3}
+  editorImportSettings:
+    generateSecondaryUVSet: 0
+  importSettings:
+    nodeNameMethod: 1
+    animationMethod: 2
+    generateMipMaps: 1
+    texturesReadable: 0
+    defaultMinFilterMode: 9729
+    defaultMagFilterMode: 9729
+    anisotropicFilterLevel: 1
+  instantiationSettings:
+    mask: -1
+    layer: 0
+    skinUpdateWhenOffscreen: 1
+    lightIntensityFactor: 1
+    sceneObjectCreation: 2
+  assetDependencies:
+  - type: 0
+    originalUri: Assets/Library folder/environment_-_library/scene.bin
+    assetPath: Assets/Library folder/environment_-_library/scene.bin
+  - type: 1
+    originalUri: Assets/Library folder/environment_-_library/textures/suelo_baseColor.jpeg
+    assetPath: Assets/Library folder/environment_-_library/textures/suelo_baseColor.jpeg
+  - type: 1
+    originalUri: Assets/Library folder/environment_-_library/textures/suelo_normal.jpeg
+    assetPath: Assets/Library folder/environment_-_library/textures/suelo_normal.jpeg
+  - type: 1
+    originalUri: Assets/Library folder/environment_-_library/textures/techo_baseColor.jpeg
+    assetPath: Assets/Library folder/environment_-_library/textures/techo_baseColor.jpeg
+  - type: 1
+    originalUri: Assets/Library folder/environment_-_library/textures/techo_normal.png
+    assetPath: Assets/Library folder/environment_-_library/textures/techo_normal.png
+  - type: 1
+    originalUri: Assets/Library folder/environment_-_library/textures/troncos_ventanas_puertas-madera_baseColor.jpeg
+    assetPath: Assets/Library folder/environment_-_library/textures/troncos_ventanas_puertas-madera_baseColor.jpeg
+  - type: 1
+    originalUri: Assets/Library folder/environment_-_library/textures/troncos_ventanas_puertas-madera_metallicRoughness.png
+    assetPath: Assets/Library folder/environment_-_library/textures/troncos_ventanas_puertas-madera_metallicRoughness.png
+  - type: 1
+    originalUri: Assets/Library folder/environment_-_library/textures/troncos_ventanas_puertas-madera_normal.png
+    assetPath: Assets/Library folder/environment_-_library/textures/troncos_ventanas_puertas-madera_normal.png
+  - type: 1
+    originalUri: Assets/Library folder/environment_-_library/textures/troncos_ventanas_puertas-metal_baseColor.jpeg
+    assetPath: Assets/Library folder/environment_-_library/textures/troncos_ventanas_puertas-metal_baseColor.jpeg
+  - type: 1
+    originalUri: Assets/Library folder/environment_-_library/textures/troncos_ventanas_puertas-metal_metallicRoughness.png
+    assetPath: Assets/Library folder/environment_-_library/textures/troncos_ventanas_puertas-metal_metallicRoughness.png
+  - type: 1
+    originalUri: Assets/Library folder/environment_-_library/textures/troncos_ventanas_puertas-metal_normal.png
+    assetPath: Assets/Library folder/environment_-_library/textures/troncos_ventanas_puertas-metal_normal.png
+  - type: 1
+    originalUri: Assets/Library folder/environment_-_library/textures/pared_baseColor.jpeg
+    assetPath: Assets/Library folder/environment_-_library/textures/pared_baseColor.jpeg
+  - type: 1
+    originalUri: Assets/Library folder/environment_-_library/textures/pared_normal.png
+    assetPath: Assets/Library folder/environment_-_library/textures/pared_normal.png
+  - type: 1
+    originalUri: Assets/Library folder/environment_-_library/textures/ventana_baseColor.png
+    assetPath: Assets/Library folder/environment_-_library/textures/ventana_baseColor.png
+  - type: 1
+    originalUri: Assets/Library folder/environment_-_library/textures/remates_baseColor.jpeg
+    assetPath: Assets/Library folder/environment_-_library/textures/remates_baseColor.jpeg
+  - type: 1
+    originalUri: Assets/Library folder/environment_-_library/textures/remates_normal.png
+    assetPath: Assets/Library folder/environment_-_library/textures/remates_normal.png
+  - type: 1
+    originalUri: Assets/Library folder/environment_-_library/textures/pared2_baseColor.jpeg
+    assetPath: Assets/Library folder/environment_-_library/textures/pared2_baseColor.jpeg
+  - type: 1
+    originalUri: Assets/Library folder/environment_-_library/textures/pared2_normal.png
+    assetPath: Assets/Library folder/environment_-_library/textures/pared2_normal.png
+  - type: 1
+    originalUri: Assets/Library folder/environment_-_library/textures/suelo2_baseColor.jpeg
+    assetPath: Assets/Library folder/environment_-_library/textures/suelo2_baseColor.jpeg
+  - type: 1
+    originalUri: Assets/Library folder/environment_-_library/textures/suelo2_normal.png
+    assetPath: Assets/Library folder/environment_-_library/textures/suelo2_normal.png
+  - type: 1
+    originalUri: Assets/Library folder/environment_-_library/textures/madera_baseColor.jpeg
+    assetPath: Assets/Library folder/environment_-_library/textures/madera_baseColor.jpeg
+  - type: 1
+    originalUri: Assets/Library folder/environment_-_library/textures/barandilla_baseColor.jpeg
+    assetPath: Assets/Library folder/environment_-_library/textures/barandilla_baseColor.jpeg
+  - type: 1
+    originalUri: Assets/Library folder/environment_-_library/textures/barandilla_metallicRoughness.png
+    assetPath: Assets/Library folder/environment_-_library/textures/barandilla_metallicRoughness.png
+  - type: 1
+    originalUri: Assets/Library folder/environment_-_library/textures/barandilla_normal.png
+    assetPath: Assets/Library folder/environment_-_library/textures/barandilla_normal.png
+  - type: 1
+    originalUri: Assets/Library folder/environment_-_library/textures/estanteria-madera_baseColor.jpeg
+    assetPath: Assets/Library folder/environment_-_library/textures/estanteria-madera_baseColor.jpeg
+  - type: 1
+    originalUri: Assets/Library folder/environment_-_library/textures/estanteria-madera_metallicRoughness.png
+    assetPath: Assets/Library folder/environment_-_library/textures/estanteria-madera_metallicRoughness.png
+  - type: 1
+    originalUri: Assets/Library folder/environment_-_library/textures/estanteria-madera_normal.png
+    assetPath: Assets/Library folder/environment_-_library/textures/estanteria-madera_normal.png
+  - type: 1
+    originalUri: Assets/Library folder/environment_-_library/textures/estanteria-marco_baseColor.jpeg
+    assetPath: Assets/Library folder/environment_-_library/textures/estanteria-marco_baseColor.jpeg
+  - type: 1
+    originalUri: Assets/Library folder/environment_-_library/textures/estanteria-marco_metallicRoughness.png
+    assetPath: Assets/Library folder/environment_-_library/textures/estanteria-marco_metallicRoughness.png
+  - type: 1
+    originalUri: Assets/Library folder/environment_-_library/textures/estanteria-marco_normal.png
+    assetPath: Assets/Library folder/environment_-_library/textures/estanteria-marco_normal.png
+  - type: 1
+    originalUri: Assets/Library folder/environment_-_library/textures/cartel1_baseColor.jpeg
+    assetPath: Assets/Library folder/environment_-_library/textures/cartel1_baseColor.jpeg
+  - type: 1
+    originalUri: Assets/Library folder/environment_-_library/textures/cartel1_metallicRoughness.png
+    assetPath: Assets/Library folder/environment_-_library/textures/cartel1_metallicRoughness.png
+  - type: 1
+    originalUri: Assets/Library folder/environment_-_library/textures/cartel1_normal.png
+    assetPath: Assets/Library folder/environment_-_library/textures/cartel1_normal.png
+  - type: 1
+    originalUri: Assets/Library folder/environment_-_library/textures/libEstanterias-hojas1_baseColor.jpeg
+    assetPath: Assets/Library folder/environment_-_library/textures/libEstanterias-hojas1_baseColor.jpeg
+  - type: 1
+    originalUri: Assets/Library folder/environment_-_library/textures/libEstanterias-hojas1_metallicRoughness.png
+    assetPath: Assets/Library folder/environment_-_library/textures/libEstanterias-hojas1_metallicRoughness.png
+  - type: 1
+    originalUri: Assets/Library folder/environment_-_library/textures/libEstanterias-hojas1_normal.png
+    assetPath: Assets/Library folder/environment_-_library/textures/libEstanterias-hojas1_normal.png
+  - type: 1
+    originalUri: Assets/Library folder/environment_-_library/textures/libEstanterias-lomos1_baseColor.jpeg
+    assetPath: Assets/Library folder/environment_-_library/textures/libEstanterias-lomos1_baseColor.jpeg
+  - type: 1
+    originalUri: Assets/Library folder/environment_-_library/textures/libEstanterias-lomos1_metallicRoughness.png
+    assetPath: Assets/Library folder/environment_-_library/textures/libEstanterias-lomos1_metallicRoughness.png
+  - type: 1
+    originalUri: Assets/Library folder/environment_-_library/textures/libEstanterias-lomos1_normal.png
+    assetPath: Assets/Library folder/environment_-_library/textures/libEstanterias-lomos1_normal.png
+  - type: 1
+    originalUri: Assets/Library folder/environment_-_library/textures/libEstanterias-hojas2_baseColor.jpeg
+    assetPath: Assets/Library folder/environment_-_library/textures/libEstanterias-hojas2_baseColor.jpeg
+  - type: 1
+    originalUri: Assets/Library folder/environment_-_library/textures/libEstanterias-hojas2_metallicRoughness.png
+    assetPath: Assets/Library folder/environment_-_library/textures/libEstanterias-hojas2_metallicRoughness.png
+  - type: 1
+    originalUri: Assets/Library folder/environment_-_library/textures/libEstanterias-hojas2_normal.png
+    assetPath: Assets/Library folder/environment_-_library/textures/libEstanterias-hojas2_normal.png
+  - type: 1
+    originalUri: Assets/Library folder/environment_-_library/textures/libEstanterias-lomos2_baseColor.jpeg
+    assetPath: Assets/Library folder/environment_-_library/textures/libEstanterias-lomos2_baseColor.jpeg
+  - type: 1
+    originalUri: Assets/Library folder/environment_-_library/textures/libEstanterias-lomos2_metallicRoughness.png
+    assetPath: Assets/Library folder/environment_-_library/textures/libEstanterias-lomos2_metallicRoughness.png
+  - type: 1
+    originalUri: Assets/Library folder/environment_-_library/textures/libEstanterias-lomos2_normal.png
+    assetPath: Assets/Library folder/environment_-_library/textures/libEstanterias-lomos2_normal.png
+  - type: 1
+    originalUri: Assets/Library folder/environment_-_library/textures/cartel2_baseColor.jpeg
+    assetPath: Assets/Library folder/environment_-_library/textures/cartel2_baseColor.jpeg
+  - type: 1
+    originalUri: Assets/Library folder/environment_-_library/textures/cartel2_metallicRoughness.png
+    assetPath: Assets/Library folder/environment_-_library/textures/cartel2_metallicRoughness.png
+  - type: 1
+    originalUri: Assets/Library folder/environment_-_library/textures/cartel2_normal.png
+    assetPath: Assets/Library folder/environment_-_library/textures/cartel2_normal.png
+  - type: 1
+    originalUri: Assets/Library folder/environment_-_library/textures/cartel3_baseColor.jpeg
+    assetPath: Assets/Library folder/environment_-_library/textures/cartel3_baseColor.jpeg
+  - type: 1
+    originalUri: Assets/Library folder/environment_-_library/textures/cartel3_metallicRoughness.png
+    assetPath: Assets/Library folder/environment_-_library/textures/cartel3_metallicRoughness.png
+  - type: 1
+    originalUri: Assets/Library folder/environment_-_library/textures/cartel3_normal.png
+    assetPath: Assets/Library folder/environment_-_library/textures/cartel3_normal.png
+  - type: 1
+    originalUri: Assets/Library folder/environment_-_library/textures/cartel4_baseColor.jpeg
+    assetPath: Assets/Library folder/environment_-_library/textures/cartel4_baseColor.jpeg
+  - type: 1
+    originalUri: Assets/Library folder/environment_-_library/textures/cartel4_metallicRoughness.png
+    assetPath: Assets/Library folder/environment_-_library/textures/cartel4_metallicRoughness.png
+  - type: 1
+    originalUri: Assets/Library folder/environment_-_library/textures/cartel4_normal.png
+    assetPath: Assets/Library folder/environment_-_library/textures/cartel4_normal.png
+  - type: 1
+    originalUri: Assets/Library folder/environment_-_library/textures/cartel6_baseColor.jpeg
+    assetPath: Assets/Library folder/environment_-_library/textures/cartel6_baseColor.jpeg
+  - type: 1
+    originalUri: Assets/Library folder/environment_-_library/textures/cartel6_metallicRoughness.png
+    assetPath: Assets/Library folder/environment_-_library/textures/cartel6_metallicRoughness.png
+  - type: 1
+    originalUri: Assets/Library folder/environment_-_library/textures/cartel6_normal.png
+    assetPath: Assets/Library folder/environment_-_library/textures/cartel6_normal.png
+  - type: 1
+    originalUri: Assets/Library folder/environment_-_library/textures/cartel7_baseColor.jpeg
+    assetPath: Assets/Library folder/environment_-_library/textures/cartel7_baseColor.jpeg
+  - type: 1
+    originalUri: Assets/Library folder/environment_-_library/textures/cartel7_metallicRoughness.png
+    assetPath: Assets/Library folder/environment_-_library/textures/cartel7_metallicRoughness.png
+  - type: 1
+    originalUri: Assets/Library folder/environment_-_library/textures/cartel7_normal.png
+    assetPath: Assets/Library folder/environment_-_library/textures/cartel7_normal.png
+  - type: 1
+    originalUri: Assets/Library folder/environment_-_library/textures/madera_mesas_sillas_baseColor.jpeg
+    assetPath: Assets/Library folder/environment_-_library/textures/madera_mesas_sillas_baseColor.jpeg
+  - type: 1
+    originalUri: Assets/Library folder/environment_-_library/textures/madera_mesas_sillas_metallicRoughness.png
+    assetPath: Assets/Library folder/environment_-_library/textures/madera_mesas_sillas_metallicRoughness.png
+  - type: 1
+    originalUri: Assets/Library folder/environment_-_library/textures/madera_mesas_sillas_normal.png
+    assetPath: Assets/Library folder/environment_-_library/textures/madera_mesas_sillas_normal.png
+  - type: 1
+    originalUri: Assets/Library folder/environment_-_library/textures/lampMesa-metal_baseColor.jpeg
+    assetPath: Assets/Library folder/environment_-_library/textures/lampMesa-metal_baseColor.jpeg
+  - type: 1
+    originalUri: Assets/Library folder/environment_-_library/textures/lampMesa-metal_metallicRoughness.png
+    assetPath: Assets/Library folder/environment_-_library/textures/lampMesa-metal_metallicRoughness.png
+  - type: 1
+    originalUri: Assets/Library folder/environment_-_library/textures/lampMesa-metal_normal.png
+    assetPath: Assets/Library folder/environment_-_library/textures/lampMesa-metal_normal.png
+  - type: 1
+    originalUri: Assets/Library folder/environment_-_library/textures/lampMesa-tulipa_baseColor.jpeg
+    assetPath: Assets/Library folder/environment_-_library/textures/lampMesa-tulipa_baseColor.jpeg
+  - type: 1
+    originalUri: Assets/Library folder/environment_-_library/textures/lampMesa-tulipa_metallicRoughness.png
+    assetPath: Assets/Library folder/environment_-_library/textures/lampMesa-tulipa_metallicRoughness.png
+  - type: 1
+    originalUri: Assets/Library folder/environment_-_library/textures/lampMesa-tulipa_normal.png
+    assetPath: Assets/Library folder/environment_-_library/textures/lampMesa-tulipa_normal.png
+  - type: 1
+    originalUri: Assets/Library folder/environment_-_library/textures/lampMesa-bombilla_emis_baseColor.jpeg
+    assetPath: Assets/Library folder/environment_-_library/textures/lampMesa-bombilla_emis_baseColor.jpeg
+  - type: 1
+    originalUri: Assets/Library folder/environment_-_library/textures/lampMesa-bombilla_emis_emissive.jpeg
+    assetPath: Assets/Library folder/environment_-_library/textures/lampMesa-bombilla_emis_emissive.jpeg
+  - type: 1
+    originalUri: Assets/Library folder/environment_-_library/textures/lampMesa-casquillo_metallicRoughness.png
+    assetPath: Assets/Library folder/environment_-_library/textures/lampMesa-casquillo_metallicRoughness.png
+  - type: 1
+    originalUri: Assets/Library folder/environment_-_library/textures/lampMesa-casquillo_normal.png
+    assetPath: Assets/Library folder/environment_-_library/textures/lampMesa-casquillo_normal.png
+  - type: 1
+    originalUri: Assets/Library folder/environment_-_library/textures/lamparaTecho-metal_baseColor.jpeg
+    assetPath: Assets/Library folder/environment_-_library/textures/lamparaTecho-metal_baseColor.jpeg
+  - type: 1
+    originalUri: Assets/Library folder/environment_-_library/textures/lamparaTecho-metal_metallicRoughness.png
+    assetPath: Assets/Library folder/environment_-_library/textures/lamparaTecho-metal_metallicRoughness.png
+  - type: 1
+    originalUri: Assets/Library folder/environment_-_library/textures/lamparaTecho-metal_normal.png
+    assetPath: Assets/Library folder/environment_-_library/textures/lamparaTecho-metal_normal.png
+  - type: 1
+    originalUri: Assets/Library folder/environment_-_library/textures/lamparaTecho-bombilla_emis_metallicRoughness.png
+    assetPath: Assets/Library folder/environment_-_library/textures/lamparaTecho-bombilla_emis_metallicRoughness.png
+  - type: 1
+    originalUri: Assets/Library folder/environment_-_library/textures/lamparaTecho-bombilla_emis_emissive.jpeg
+    assetPath: Assets/Library folder/environment_-_library/textures/lamparaTecho-bombilla_emis_emissive.jpeg
+  - type: 1
+    originalUri: Assets/Library folder/environment_-_library/textures/lamparaTecho-casquillo_metallicRoughness.png
+    assetPath: Assets/Library folder/environment_-_library/textures/lamparaTecho-casquillo_metallicRoughness.png
+  - type: 1
+    originalUri: Assets/Library folder/environment_-_library/textures/lamparaTecho-casquillo_normal.png
+    assetPath: Assets/Library folder/environment_-_library/textures/lamparaTecho-casquillo_normal.png
+  - type: 1
+    originalUri: Assets/Library folder/environment_-_library/textures/cartel5_baseColor.jpeg
+    assetPath: Assets/Library folder/environment_-_library/textures/cartel5_baseColor.jpeg
+  - type: 1
+    originalUri: Assets/Library folder/environment_-_library/textures/cartel5_metallicRoughness.png
+    assetPath: Assets/Library folder/environment_-_library/textures/cartel5_metallicRoughness.png
+  - type: 1
+    originalUri: Assets/Library folder/environment_-_library/textures/cartel5_normal.png
+    assetPath: Assets/Library folder/environment_-_library/textures/cartel5_normal.png
+  reportItems:
+  - type: 2
+    code: 20
+    messages:
+    - KHR_materials_emissive_strength

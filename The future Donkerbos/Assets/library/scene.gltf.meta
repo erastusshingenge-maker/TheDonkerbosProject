@@ -1,0 +1,88 @@
+fileFormatVersion: 2
+guid: d3df3d17c9ae4444584fcf353dca15b2
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 715df9372183c47e389bb6e19fbc3b52, type: 3}
+  editorImportSettings:
+    generateSecondaryUVSet: 0
+  importSettings:
+    nodeNameMethod: 1
+    animationMethod: 2
+    generateMipMaps: 1
+    texturesReadable: 0
+    defaultMinFilterMode: 9729
+    defaultMagFilterMode: 9729
+    anisotropicFilterLevel: 1
+  instantiationSettings:
+    mask: -1
+    layer: 0
+    skinUpdateWhenOffscreen: 1
+    lightIntensityFactor: 1
+    sceneObjectCreation: 2
+  assetDependencies:
+  - type: 0
+    originalUri: Assets/library/scene.bin
+    assetPath: Assets/library/scene.bin
+  - type: 1
+    originalUri: Assets/library/textures/auto_baseColor.jpeg
+    assetPath: Assets/library/textures/auto_baseColor.jpeg
+  - type: 1
+    originalUri: Assets/library/textures/material_1_baseColor.jpeg
+    assetPath: Assets/library/textures/material_1_baseColor.jpeg
+  - type: 1
+    originalUri: Assets/library/textures/auto_1_baseColor.png
+    assetPath: Assets/library/textures/auto_1_baseColor.png
+  - type: 1
+    originalUri: Assets/library/textures/auto_2_baseColor.jpeg
+    assetPath: Assets/library/textures/auto_2_baseColor.jpeg
+  - type: 1
+    originalUri: Assets/library/textures/auto_3_baseColor.jpeg
+    assetPath: Assets/library/textures/auto_3_baseColor.jpeg
+  - type: 1
+    originalUri: Assets/library/textures/auto_4_baseColor.jpeg
+    assetPath: Assets/library/textures/auto_4_baseColor.jpeg
+  - type: 1
+    originalUri: Assets/library/textures/auto_6_baseColor.jpeg
+    assetPath: Assets/library/textures/auto_6_baseColor.jpeg
+  - type: 1
+    originalUri: Assets/library/textures/auto_5_baseColor.jpeg
+    assetPath: Assets/library/textures/auto_5_baseColor.jpeg
+  - type: 1
+    originalUri: Assets/library/textures/auto_8_baseColor.jpeg
+    assetPath: Assets/library/textures/auto_8_baseColor.jpeg
+  - type: 1
+    originalUri: Assets/library/textures/auto_9_baseColor.jpeg
+    assetPath: Assets/library/textures/auto_9_baseColor.jpeg
+  - type: 1
+    originalUri: Assets/library/textures/auto_10_baseColor.jpeg
+    assetPath: Assets/library/textures/auto_10_baseColor.jpeg
+  - type: 1
+    originalUri: Assets/library/textures/auto_11_baseColor.jpeg
+    assetPath: Assets/library/textures/auto_11_baseColor.jpeg
+  - type: 1
+    originalUri: Assets/library/textures/auto_13_baseColor.jpeg
+    assetPath: Assets/library/textures/auto_13_baseColor.jpeg
+  - type: 1
+    originalUri: Assets/library/textures/auto_14_baseColor.jpeg
+    assetPath: Assets/library/textures/auto_14_baseColor.jpeg
+  - type: 1
+    originalUri: Assets/library/textures/auto_15_baseColor.jpeg
+    assetPath: Assets/library/textures/auto_15_baseColor.jpeg
+  - type: 1
+    originalUri: Assets/library/textures/auto_16_baseColor.jpeg
+    assetPath: Assets/library/textures/auto_16_baseColor.jpeg
+  - type: 1
+    originalUri: Assets/library/textures/auto_18_baseColor.jpeg
+    assetPath: Assets/library/textures/auto_18_baseColor.jpeg
+  - type: 1
+    originalUri: Assets/library/textures/auto_19_baseColor.jpeg
+    assetPath: Assets/library/textures/auto_19_baseColor.jpeg
+  - type: 1
+    originalUri: Assets/library/textures/auto_23_baseColor.jpeg
+    assetPath: Assets/library/textures/auto_23_baseColor.jpeg
+  reportItems: []
