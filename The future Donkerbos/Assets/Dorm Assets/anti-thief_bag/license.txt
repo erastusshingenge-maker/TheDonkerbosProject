@@ -1,0 +1,11 @@
+Model Information:
+* title:	Anti-Thief Bag
+* source:	https://sketchfab.com/3d-models/anti-thief-bag-293fb6a8cafd4eac8256391c04f41668
+* author:	Egi (https://sketchfab.com/dzero808)
+
+Model License:
+* license type:	CC-BY-NC-ND-4.0 (http://creativecommons.org/licenses/by-nc-nd/4.0/)
+* requirements:	Author must be credited. No commercial use. Modified versions can not be distributed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Anti-Thief Bag" (https://sketchfab.com/3d-models/anti-thief-bag-293fb6a8cafd4eac8256391c04f41668) by Egi (https://sketchfab.com/dzero808) licensed under CC-BY-NC-ND-4.0 (http://creativecommons.org/licenses/by-nc-nd/4.0/)

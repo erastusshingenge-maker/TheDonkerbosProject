@@ -1,0 +1,11 @@
+Model Information:
+* title:	folded_clothes
+* source:	https://sketchfab.com/3d-models/folded-clothes-dae7b4a2eba145be9f6574cc6fb15275
+* author:	natmiller876 (https://sketchfab.com/natmiller876)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "folded_clothes" (https://sketchfab.com/3d-models/folded-clothes-dae7b4a2eba145be9f6574cc6fb15275) by natmiller876 (https://sketchfab.com/natmiller876) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

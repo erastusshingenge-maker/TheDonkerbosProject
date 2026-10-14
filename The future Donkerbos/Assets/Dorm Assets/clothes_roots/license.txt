@@ -1,0 +1,11 @@
+Model Information:
+* title:	Clothes Roots
+* source:	https://sketchfab.com/3d-models/clothes-roots-9143d6a339314273b01025ee6f67d9d3
+* author:	Nightmariest (https://sketchfab.com/Nighrmariest)
+
+Model License:
+* license type:	CC-BY-SA-4.0 (http://creativecommons.org/licenses/by-sa/4.0/)
+* requirements:	Author must be credited. Modified versions must have the same license. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Clothes Roots" (https://sketchfab.com/3d-models/clothes-roots-9143d6a339314273b01025ee6f67d9d3) by Nightmariest (https://sketchfab.com/Nighrmariest) licensed under CC-BY-SA-4.0 (http://creativecommons.org/licenses/by-sa/4.0/)

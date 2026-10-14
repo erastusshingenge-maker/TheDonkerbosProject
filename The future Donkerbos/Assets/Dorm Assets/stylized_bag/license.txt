@@ -1,0 +1,8 @@
+Model Information:
+* title:	Stylized bag
+* source:	https://sketchfab.com/3d-models/stylized-bag-09efea26a5c444a7ac6a67c08d1c5d9b
+* author:	Trident.AI (https://sketchfab.com/Trident.AI)
+
+Model License:
+* license type:	SKETCHFAB Standard (https://sketchfab.com/licenses)
+* requirements:	Under basic restrictions, use worldwide, on all types of media, commercially or not, and in all types of derivative works

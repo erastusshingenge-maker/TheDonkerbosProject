@@ -1,0 +1,11 @@
+Model Information:
+* title:	cork board
+* source:	https://sketchfab.com/3d-models/cork-board-0952d9cfd8294ef8bcbcb6af1848f0ad
+* author:	Spacesea (https://sketchfab.com/-Spacesea-)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "cork board" (https://sketchfab.com/3d-models/cork-board-0952d9cfd8294ef8bcbcb6af1848f0ad) by Spacesea (https://sketchfab.com/-Spacesea-) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

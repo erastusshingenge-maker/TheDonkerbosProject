@@ -1,0 +1,11 @@
+Model Information:
+* title:	Library Desk Lamp
+* source:	https://sketchfab.com/3d-models/library-desk-lamp-fe755dad093b4c27b508574b607dce8d
+* author:	chaschinkaa (https://sketchfab.com/chaschinkaa)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Library Desk Lamp" (https://sketchfab.com/3d-models/library-desk-lamp-fe755dad093b4c27b508574b607dce8d) by chaschinkaa (https://sketchfab.com/chaschinkaa) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

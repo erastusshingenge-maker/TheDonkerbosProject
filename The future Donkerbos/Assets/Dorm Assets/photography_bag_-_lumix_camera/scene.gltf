@@ -1,0 +1,285 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 59595,
+      "max": [
+        13.199493408203125,
+        13.32858657836914,
+        17.2843017578125
+      ],
+      "min": [
+        -11.571174621582031,
+        -13.992558479309082,
+        -12.537420272827148
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 715140,
+      "componentType": 5126,
+      "count": 59595,
+      "max": [
+        0.9999911785125732,
+        0.9999754428863525,
+        0.9999911785125732
+      ],
+      "min": [
+        -0.9999881982803345,
+        -0.9999898672103882,
+        -0.9999814033508301
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 59595,
+      "max": [
+        1.0,
+        0.999310314655304,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -0.9999688267707825,
+        -0.9999997019767761,
+        -1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 59595,
+      "max": [
+        0.9997329711914063,
+        0.9851073026657104
+      ],
+      "min": [
+        0.000244140625,
+        0.000282545224763453
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 299904,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Harry101UK (https://sketchfab.com/HarryCallaghan)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/photography-bag-lumix-camera-396530e9f959425d8660900bd3c5ce1e",
+      "title": "Photography Bag - Lumix Camera"
+    },
+    "generator": "Sketchfab-12.67.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 1199616,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 476760,
+      "byteOffset": 1199616,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1430280,
+      "byteOffset": 1676376,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 953520,
+      "byteOffset": 3106656,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 4060176,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/Lumix_Camera_Photo_Bag_100k_u0_v0_baseColor.jpeg"
+    },
+    {
+      "uri": "textures/Lumix_Camera_Photo_Bag_100k_u0_v0_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/Lumix_Camera_Photo_Bag_100k_u0_v0_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "Lumix_Camera_Photo_Bag_100k_u0_v0",
+      "normalTexture": {
+        "index": 2
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.1,
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Lumix_Camera_Photo_Bag_100k_Lumix_Camera_Photo_Bag_100k_u0_v0_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        -8.960000030810988e-08,
+        -7.439999905045628e-08,
+        1.5940000253067407e-07,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.009999999776482582,
+        0.0,
+        0.0,
+        -0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Lumix_Camera_Photo_Bag.fbx"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4
+      ],
+      "matrix": [
+        7.549789959870878e-06,
+        1.1102230246251565e-14,
+        99.99999999999972,
+        0.0,
+        99.99999999999962,
+        -4.371139006309477e-06,
+        -7.549789954319763e-06,
+        0.0,
+        4.371139006309477e-06,
+        99.99999999999991,
+        -3.552713678800501e-13,
+        0.0,
+        -4.1685285568237305,
+        2.8853893280029297,
+        81.494140625,
+        1.0
+      ],
+      "name": "Lumix_Camera_Photo_Bag_100k"
+    },
+    {
+      "mesh": 0,
+      "name": "Lumix_Camera_Photo_Bag_100k_Lumix_Camera_Photo_Bag_100k_u0_v0_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}
