@@ -1,0 +1,76 @@
+fileFormatVersion: 2
+guid: 1e0b6d33aca58489cb803c91dde47e96
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 715df9372183c47e389bb6e19fbc3b52, type: 3}
+  editorImportSettings:
+    generateSecondaryUVSet: 0
+  importSettings:
+    nodeNameMethod: 1
+    animationMethod: 2
+    generateMipMaps: 1
+    texturesReadable: 0
+    defaultMinFilterMode: 9729
+    defaultMagFilterMode: 9729
+    anisotropicFilterLevel: 1
+  instantiationSettings:
+    mask: -1
+    layer: 0
+    skinUpdateWhenOffscreen: 1
+    lightIntensityFactor: 1
+    sceneObjectCreation: 2
+  assetDependencies:
+  - type: 0
+    originalUri: Assets/Future Donkerbos Assets/swimming_pool/scene.bin
+    assetPath: Assets/Future Donkerbos Assets/swimming_pool/scene.bin
+  - type: 1
+    originalUri: Assets/Future Donkerbos Assets/swimming_pool/textures/Fencing_baseColor.png
+    assetPath: Assets/Future Donkerbos Assets/swimming_pool/textures/Fencing_baseColor.png
+  - type: 1
+    originalUri: Assets/Future Donkerbos Assets/swimming_pool/textures/Metal_Co_baseColor.jpeg
+    assetPath: Assets/Future Donkerbos Assets/swimming_pool/textures/Metal_Co_baseColor.jpeg
+  - type: 1
+    originalUri: Assets/Future Donkerbos Assets/swimming_pool/textures/Metal_Co_metallicRoughness.png
+    assetPath: Assets/Future Donkerbos Assets/swimming_pool/textures/Metal_Co_metallicRoughness.png
+  - type: 1
+    originalUri: Assets/Future Donkerbos Assets/swimming_pool/textures/Stone_Ma_baseColor.jpeg
+    assetPath: Assets/Future Donkerbos Assets/swimming_pool/textures/Stone_Ma_baseColor.jpeg
+  - type: 1
+    originalUri: Assets/Future Donkerbos Assets/swimming_pool/textures/Stone_Ve_baseColor.jpeg
+    assetPath: Assets/Future Donkerbos Assets/swimming_pool/textures/Stone_Ve_baseColor.jpeg
+  - type: 1
+    originalUri: Assets/Future Donkerbos Assets/swimming_pool/textures/Tile_Cer_baseColor.jpeg
+    assetPath: Assets/Future Donkerbos Assets/swimming_pool/textures/Tile_Cer_baseColor.jpeg
+  - type: 1
+    originalUri: Assets/Future Donkerbos Assets/swimming_pool/textures/Transl01_baseColor.jpeg
+    assetPath: Assets/Future Donkerbos Assets/swimming_pool/textures/Transl01_baseColor.jpeg
+  - type: 1
+    originalUri: Assets/Future Donkerbos Assets/swimming_pool/textures/Vegetati_baseColor.jpeg
+    assetPath: Assets/Future Donkerbos Assets/swimming_pool/textures/Vegetati_baseColor.jpeg
+  - type: 1
+    originalUri: Assets/Future Donkerbos Assets/swimming_pool/textures/Textile_baseColor.jpeg
+    assetPath: Assets/Future Donkerbos Assets/swimming_pool/textures/Textile_baseColor.jpeg
+  - type: 1
+    originalUri: Assets/Future Donkerbos Assets/swimming_pool/textures/Wood_Che_baseColor.jpeg
+    assetPath: Assets/Future Donkerbos Assets/swimming_pool/textures/Wood_Che_baseColor.jpeg
+  - type: 1
+    originalUri: Assets/Future Donkerbos Assets/swimming_pool/textures/Metal01_baseColor.jpeg
+    assetPath: Assets/Future Donkerbos Assets/swimming_pool/textures/Metal01_baseColor.jpeg
+  - type: 1
+    originalUri: Assets/Future Donkerbos Assets/swimming_pool/textures/Beige_1_baseColor.jpeg
+    assetPath: Assets/Future Donkerbos Assets/swimming_pool/textures/Beige_1_baseColor.jpeg
+  - type: 1
+    originalUri: Assets/Future Donkerbos Assets/swimming_pool/textures/Charcoa_baseColor.jpeg
+    assetPath: Assets/Future Donkerbos Assets/swimming_pool/textures/Charcoa_baseColor.jpeg
+  - type: 1
+    originalUri: Assets/Future Donkerbos Assets/swimming_pool/textures/Metal_C_baseColor.jpeg
+    assetPath: Assets/Future Donkerbos Assets/swimming_pool/textures/Metal_C_baseColor.jpeg
+  - type: 1
+    originalUri: Assets/Future Donkerbos Assets/swimming_pool/textures/Color_B2_baseColor.png
+    assetPath: Assets/Future Donkerbos Assets/swimming_pool/textures/Color_B2_baseColor.png
+  reportItems: []

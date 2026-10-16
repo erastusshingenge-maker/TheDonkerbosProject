@@ -1,0 +1,11 @@
+Model Information:
+* title:	Solar Panel 10x20
+* source:	https://sketchfab.com/3d-models/solar-panel-10x20-5b589d291dea473b8c816f868cab1783
+* author:	gisexpert (https://sketchfab.com/gisexpert)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Solar Panel 10x20" (https://sketchfab.com/3d-models/solar-panel-10x20-5b589d291dea473b8c816f868cab1783) by gisexpert (https://sketchfab.com/gisexpert) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

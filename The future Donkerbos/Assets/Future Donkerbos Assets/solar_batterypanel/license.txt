@@ -1,0 +1,11 @@
+Model Information:
+* title:	Solar Battery/panel
+* source:	https://sketchfab.com/3d-models/solar-batterypanel-3f963798283f435a840cb20108afedf5
+* author:	ADSKIE (https://sketchfab.com/ADSKIE)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Solar Battery/panel" (https://sketchfab.com/3d-models/solar-batterypanel-3f963798283f435a840cb20108afedf5) by ADSKIE (https://sketchfab.com/ADSKIE) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
