@@ -33,6 +33,7 @@ TagManager:
   - LocoText
   - Stick
   - Grass Wall
+  - Pole
   layers:
   - Default
   - TransparentFX

@@ -1,19 +1,20 @@
-
 using UnityEngine;
 
 public class ConstructionStageManager : MonoBehaviour
 {
     [Header("Current Stage")]
     [SerializeField] private int requiredPlacements;
+    [SerializeField] private bool isFinalStage = false;
 
     [Header("Next Stage")]
     [SerializeField] private GameObject[] nextStageTriggers;
+
+    public bool isHutFinished { get; private set; } = false;
 
     private int completedPlacements = 0;
 
     private void Start()
     {
-        // Disable the next stage initially
         foreach (GameObject trigger in nextStageTriggers)
         {
             trigger.SetActive(false);
@@ -22,6 +23,9 @@ public class ConstructionStageManager : MonoBehaviour
 
     public void ObjectPlaced()
     {
+        if (completedPlacements >= requiredPlacements)
+            return;
+
         completedPlacements++;
 
         Debug.Log("Construction progress: " +
@@ -29,7 +33,15 @@ public class ConstructionStageManager : MonoBehaviour
 
         if (completedPlacements >= requiredPlacements)
         {
-            UnlockNextStage();
+            if (isFinalStage)
+            {
+                isHutFinished = true;
+                Debug.Log("Hut construction completed!");
+            }
+            else
+            {
+                UnlockNextStage();
+            }
         }
     }
 
@@ -43,4 +55,3 @@ public class ConstructionStageManager : MonoBehaviour
         Debug.Log("Next construction stage unlocked!");
     }
 }
-

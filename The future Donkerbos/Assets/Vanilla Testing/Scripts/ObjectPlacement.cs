@@ -42,7 +42,8 @@ public class ObjectPlacement : MonoBehaviour
 
         // Remove the original object
         incomingObject.SetActive(false);
-        Destroy(incomingObject);
+        //Destroy(incomingObject);
+
 
         stageManager.ObjectPlaced();
         Destroy(gameObject);
