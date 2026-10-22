@@ -1,0 +1,28 @@
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+// Put this on any object and call LoadNext / LoadPrevious / LoadFirst from a button's
+// "When Select" (or any UnityEvent). Scene order = File > Build Profiles > Scene List.
+public class SceneLoadButton : MonoBehaviour
+{
+    float lockUntil;
+
+    public void LoadNext()     { Go(+1); }
+    public void LoadPrevious() { Go(-1); }
+    public void LoadFirst()    { Load(0); }
+
+    void Go(int step)
+    {
+        int count = SceneManager.sceneCountInBuildSettings;
+        if (count < 1) return;
+        int next = (SceneManager.GetActiveScene().buildIndex + step + count) % count;
+        Load(next);
+    }
+
+    void Load(int index)
+    {
+        if (Time.unscaledTime < lockUntil) return;   // ignore double-pokes
+        lockUntil = Time.unscaledTime + 1.5f;
+        SceneManager.LoadScene(index);
+    }
+}

@@ -1,0 +1,54 @@
+using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.XR;
+
+// Lets you step through every scene in the build with the Quest controllers.
+//   Right controller B button -> next scene
+//   Left controller Y button  -> previous scene
+// It creates itself when the app starts and survives scene changes, so nothing
+// needs to be added to any scene. Scene order = the order in File > Build Profiles > Scene List.
+public class SceneNavigator : MonoBehaviour
+{
+    static SceneNavigator instance;
+    bool rightWas, leftWas;
+    float lockUntil;
+
+    [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.AfterSceneLoad)]
+    static void Spawn()
+    {
+        if (instance != null) return;
+        var go = new GameObject("SceneNavigator");
+        DontDestroyOnLoad(go);
+        instance = go.AddComponent<SceneNavigator>();
+    }
+
+    void Update()
+    {
+        bool right = Pressed(XRNode.RightHand);
+        bool left = Pressed(XRNode.LeftHand);
+        if (Time.unscaledTime > lockUntil)
+        {
+            if (right && !rightWas) Go(+1);
+            else if (left && !leftWas) Go(-1);
+        }
+        rightWas = right;
+        leftWas = left;
+    }
+
+    static bool Pressed(XRNode node)
+    {
+        var dev = InputDevices.GetDeviceAtXRNode(node);
+        // secondaryButton = B on the right controller, Y on the left controller
+        return dev.isValid && dev.TryGetFeatureValue(CommonUsages.secondaryButton, out bool v) && v;
+    }
+
+    void Go(int step)
+    {
+        int count = SceneManager.sceneCountInBuildSettings;
+        if (count < 2) return;
+        int next = (SceneManager.GetActiveScene().buildIndex + step + count) % count;
+        lockUntil = Time.unscaledTime + 1.5f;
+        Debug.Log("SceneNavigator: loading build index " + next);
+        SceneManager.LoadScene(next);
+    }
+}
