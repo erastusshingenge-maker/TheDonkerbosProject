@@ -1,9 +1,7 @@
-
 using UnityEngine;
 
 public class ObjectPlacement : MonoBehaviour
 {
-
     [SerializeField]
     private ConstructionStageManager stageManager;
 
@@ -17,13 +15,11 @@ public class ObjectPlacement : MonoBehaviour
     {
         if (isPlaced) return;
 
-        // Find the object entering the trigger
         GameObject incomingObject =
             other.attachedRigidbody != null
             ? other.attachedRigidbody.gameObject
             : other.gameObject;
 
-        // Check if it is the correct object
         if (!incomingObject.CompareTag(requiredTag))
             return;
 
@@ -34,21 +30,36 @@ public class ObjectPlacement : MonoBehaviour
     {
         isPlaced = true;
 
-        // Enable the correctly positioned object
+        // Show the correctly positioned object
         placedObject.SetActive(true);
 
         // Disable the placement trigger
         GetComponent<Collider>().enabled = false;
 
+        // Notify construction manager
+        if (stageManager != null)
+        {
+            stageManager.ObjectPlaced();
+        }
+
         // Remove the original object
-        incomingObject.SetActive(false);
-        //Destroy(incomingObject);
-
-
-        stageManager.ObjectPlaced();
-        Destroy(gameObject);
+        SafeDestroy(incomingObject);
 
         Debug.Log("Object placed successfully!");
+    }
+
+    private void SafeDestroy(GameObject incomingObject)
+    {
+        if (incomingObject != null)
+        {
+            Destroy(incomingObject);
+        }
+
+        // Hide the placement trigger without destroying it
+        foreach (Renderer renderer in GetComponentsInChildren<Renderer>())
+        {
+            renderer.enabled = false;
+        }
     }
 }
 
