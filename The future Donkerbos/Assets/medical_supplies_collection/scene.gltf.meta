@@ -1,0 +1,172 @@
+fileFormatVersion: 2
+guid: 8e14da3756bcc41b4b308571e81044cc
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 715df9372183c47e389bb6e19fbc3b52, type: 3}
+  editorImportSettings:
+    generateSecondaryUVSet: 0
+  importSettings:
+    nodeNameMethod: 1
+    animationMethod: 2
+    generateMipMaps: 1
+    texturesReadable: 0
+    defaultMinFilterMode: 9729
+    defaultMagFilterMode: 9729
+    anisotropicFilterLevel: 1
+  instantiationSettings:
+    mask: -1
+    layer: 0
+    skinUpdateWhenOffscreen: 1
+    lightIntensityFactor: 1
+    sceneObjectCreation: 2
+  assetDependencies:
+  - type: 0
+    originalUri: Assets/medical_supplies_collection/scene.bin
+    assetPath: Assets/medical_supplies_collection/scene.bin
+  - type: 1
+    originalUri: Assets/medical_supplies_collection/textures/Tray1_baseColor.png
+    assetPath: Assets/medical_supplies_collection/textures/Tray1_baseColor.png
+  - type: 1
+    originalUri: Assets/medical_supplies_collection/textures/Tray1_metallicRoughness.png
+    assetPath: Assets/medical_supplies_collection/textures/Tray1_metallicRoughness.png
+  - type: 1
+    originalUri: Assets/medical_supplies_collection/textures/Tray1_normal.png
+    assetPath: Assets/medical_supplies_collection/textures/Tray1_normal.png
+  - type: 1
+    originalUri: Assets/medical_supplies_collection/textures/Needles1_baseColor.png
+    assetPath: Assets/medical_supplies_collection/textures/Needles1_baseColor.png
+  - type: 1
+    originalUri: Assets/medical_supplies_collection/textures/Needles1_metallicRoughness.png
+    assetPath: Assets/medical_supplies_collection/textures/Needles1_metallicRoughness.png
+  - type: 1
+    originalUri: Assets/medical_supplies_collection/textures/Needles1_normal.png
+    assetPath: Assets/medical_supplies_collection/textures/Needles1_normal.png
+  - type: 1
+    originalUri: Assets/medical_supplies_collection/textures/Vaccines1_baseColor.png
+    assetPath: Assets/medical_supplies_collection/textures/Vaccines1_baseColor.png
+  - type: 1
+    originalUri: Assets/medical_supplies_collection/textures/Vaccines1_metallicRoughness.png
+    assetPath: Assets/medical_supplies_collection/textures/Vaccines1_metallicRoughness.png
+  - type: 1
+    originalUri: Assets/medical_supplies_collection/textures/Vaccines1_normal.png
+    assetPath: Assets/medical_supplies_collection/textures/Vaccines1_normal.png
+  - type: 1
+    originalUri: Assets/medical_supplies_collection/textures/Gloves_baseColor.png
+    assetPath: Assets/medical_supplies_collection/textures/Gloves_baseColor.png
+  - type: 1
+    originalUri: Assets/medical_supplies_collection/textures/Gloves_metallicRoughness.png
+    assetPath: Assets/medical_supplies_collection/textures/Gloves_metallicRoughness.png
+  - type: 1
+    originalUri: Assets/medical_supplies_collection/textures/Gloves_normal.png
+    assetPath: Assets/medical_supplies_collection/textures/Gloves_normal.png
+  - type: 1
+    originalUri: Assets/medical_supplies_collection/textures/Medkit_baseColor.png
+    assetPath: Assets/medical_supplies_collection/textures/Medkit_baseColor.png
+  - type: 1
+    originalUri: Assets/medical_supplies_collection/textures/Medkit_metallicRoughness.png
+    assetPath: Assets/medical_supplies_collection/textures/Medkit_metallicRoughness.png
+  - type: 1
+    originalUri: Assets/medical_supplies_collection/textures/Medkit_normal.png
+    assetPath: Assets/medical_supplies_collection/textures/Medkit_normal.png
+  - type: 1
+    originalUri: Assets/medical_supplies_collection/textures/Line2_baseColor.png
+    assetPath: Assets/medical_supplies_collection/textures/Line2_baseColor.png
+  - type: 1
+    originalUri: Assets/medical_supplies_collection/textures/Line2_metallicRoughness.png
+    assetPath: Assets/medical_supplies_collection/textures/Line2_metallicRoughness.png
+  - type: 1
+    originalUri: Assets/medical_supplies_collection/textures/Line2_normal.png
+    assetPath: Assets/medical_supplies_collection/textures/Line2_normal.png
+  - type: 1
+    originalUri: Assets/medical_supplies_collection/textures/Bandages1_baseColor.png
+    assetPath: Assets/medical_supplies_collection/textures/Bandages1_baseColor.png
+  - type: 1
+    originalUri: Assets/medical_supplies_collection/textures/Bandages1_metallicRoughness.png
+    assetPath: Assets/medical_supplies_collection/textures/Bandages1_metallicRoughness.png
+  - type: 1
+    originalUri: Assets/medical_supplies_collection/textures/Bandages1_normal.png
+    assetPath: Assets/medical_supplies_collection/textures/Bandages1_normal.png
+  - type: 1
+    originalUri: Assets/medical_supplies_collection/textures/PillsCase3_baseColor.png
+    assetPath: Assets/medical_supplies_collection/textures/PillsCase3_baseColor.png
+  - type: 1
+    originalUri: Assets/medical_supplies_collection/textures/PillsCase3_metallicRoughness.png
+    assetPath: Assets/medical_supplies_collection/textures/PillsCase3_metallicRoughness.png
+  - type: 1
+    originalUri: Assets/medical_supplies_collection/textures/PillsCase3_normal.png
+    assetPath: Assets/medical_supplies_collection/textures/PillsCase3_normal.png
+  - type: 1
+    originalUri: Assets/medical_supplies_collection/textures/Patches1_baseColor.png
+    assetPath: Assets/medical_supplies_collection/textures/Patches1_baseColor.png
+  - type: 1
+    originalUri: Assets/medical_supplies_collection/textures/Patches1_metallicRoughness.png
+    assetPath: Assets/medical_supplies_collection/textures/Patches1_metallicRoughness.png
+  - type: 1
+    originalUri: Assets/medical_supplies_collection/textures/Patches1_normal.png
+    assetPath: Assets/medical_supplies_collection/textures/Patches1_normal.png
+  - type: 1
+    originalUri: Assets/medical_supplies_collection/textures/Pills0_baseColor.png
+    assetPath: Assets/medical_supplies_collection/textures/Pills0_baseColor.png
+  - type: 1
+    originalUri: Assets/medical_supplies_collection/textures/Pills0_metallicRoughness.png
+    assetPath: Assets/medical_supplies_collection/textures/Pills0_metallicRoughness.png
+  - type: 1
+    originalUri: Assets/medical_supplies_collection/textures/Pills0_normal.png
+    assetPath: Assets/medical_supplies_collection/textures/Pills0_normal.png
+  - type: 1
+    originalUri: Assets/medical_supplies_collection/textures/Thermometer1_baseColor.png
+    assetPath: Assets/medical_supplies_collection/textures/Thermometer1_baseColor.png
+  - type: 1
+    originalUri: Assets/medical_supplies_collection/textures/Thermometer1_metallicRoughness.png
+    assetPath: Assets/medical_supplies_collection/textures/Thermometer1_metallicRoughness.png
+  - type: 1
+    originalUri: Assets/medical_supplies_collection/textures/Thermometer1_normal.png
+    assetPath: Assets/medical_supplies_collection/textures/Thermometer1_normal.png
+  - type: 1
+    originalUri: Assets/medical_supplies_collection/textures/Spray1_baseColor.png
+    assetPath: Assets/medical_supplies_collection/textures/Spray1_baseColor.png
+  - type: 1
+    originalUri: Assets/medical_supplies_collection/textures/Spray1_metallicRoughness.png
+    assetPath: Assets/medical_supplies_collection/textures/Spray1_metallicRoughness.png
+  - type: 1
+    originalUri: Assets/medical_supplies_collection/textures/Spray1_normal.png
+    assetPath: Assets/medical_supplies_collection/textures/Spray1_normal.png
+  - type: 1
+    originalUri: Assets/medical_supplies_collection/textures/Tubes1_baseColor.png
+    assetPath: Assets/medical_supplies_collection/textures/Tubes1_baseColor.png
+  - type: 1
+    originalUri: Assets/medical_supplies_collection/textures/Tubes1_metallicRoughness.png
+    assetPath: Assets/medical_supplies_collection/textures/Tubes1_metallicRoughness.png
+  - type: 1
+    originalUri: Assets/medical_supplies_collection/textures/Tubes1_normal.png
+    assetPath: Assets/medical_supplies_collection/textures/Tubes1_normal.png
+  - type: 1
+    originalUri: Assets/medical_supplies_collection/textures/Stethoscope1_baseColor.png
+    assetPath: Assets/medical_supplies_collection/textures/Stethoscope1_baseColor.png
+  - type: 1
+    originalUri: Assets/medical_supplies_collection/textures/Stethoscope1_metallicRoughness.png
+    assetPath: Assets/medical_supplies_collection/textures/Stethoscope1_metallicRoughness.png
+  - type: 1
+    originalUri: Assets/medical_supplies_collection/textures/Stethoscope1_normal.png
+    assetPath: Assets/medical_supplies_collection/textures/Stethoscope1_normal.png
+  - type: 1
+    originalUri: Assets/medical_supplies_collection/textures/Blood_Bag1_baseColor.png
+    assetPath: Assets/medical_supplies_collection/textures/Blood_Bag1_baseColor.png
+  - type: 1
+    originalUri: Assets/medical_supplies_collection/textures/Blood_Bag1_metallicRoughness.png
+    assetPath: Assets/medical_supplies_collection/textures/Blood_Bag1_metallicRoughness.png
+  - type: 1
+    originalUri: Assets/medical_supplies_collection/textures/Blood_Bag1_normal.png
+    assetPath: Assets/medical_supplies_collection/textures/Blood_Bag1_normal.png
+  - type: 1
+    originalUri: Assets/medical_supplies_collection/textures/Mask1_baseColor.png
+    assetPath: Assets/medical_supplies_collection/textures/Mask1_baseColor.png
+  - type: 1
+    originalUri: Assets/medical_supplies_collection/textures/Mask1_metallicRoughness.png
+    assetPath: Assets/medical_supplies_collection/textures/Mask1_metallicRoughness.png
+  reportItems: []

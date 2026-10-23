@@ -1,0 +1,49 @@
+fileFormatVersion: 2
+guid: 12bb77b15734a4dd0bc93cce5f8ec105
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 715df9372183c47e389bb6e19fbc3b52, type: 3}
+  editorImportSettings:
+    generateSecondaryUVSet: 0
+  importSettings:
+    nodeNameMethod: 1
+    animationMethod: 2
+    generateMipMaps: 1
+    texturesReadable: 0
+    defaultMinFilterMode: 9729
+    defaultMagFilterMode: 9729
+    anisotropicFilterLevel: 1
+  instantiationSettings:
+    mask: -1
+    layer: 0
+    skinUpdateWhenOffscreen: 1
+    lightIntensityFactor: 1
+    sceneObjectCreation: 2
+  assetDependencies:
+  - type: 0
+    originalUri: Assets/medical_props/scene.bin
+    assetPath: Assets/medical_props/scene.bin
+  - type: 1
+    originalUri: Assets/medical_props/textures/Medical_Props_Surgical_Cart_baseColor.png
+    assetPath: Assets/medical_props/textures/Medical_Props_Surgical_Cart_baseColor.png
+  - type: 1
+    originalUri: Assets/medical_props/textures/Medical_Props_Surgical_Cart_metallicRoughness.png
+    assetPath: Assets/medical_props/textures/Medical_Props_Surgical_Cart_metallicRoughness.png
+  - type: 1
+    originalUri: Assets/medical_props/textures/Medical_Props_Surgical_Cart_normal.png
+    assetPath: Assets/medical_props/textures/Medical_Props_Surgical_Cart_normal.png
+  - type: 1
+    originalUri: Assets/medical_props/textures/prop_baseColor.png
+    assetPath: Assets/medical_props/textures/prop_baseColor.png
+  - type: 1
+    originalUri: Assets/medical_props/textures/prop_metallicRoughness.png
+    assetPath: Assets/medical_props/textures/prop_metallicRoughness.png
+  - type: 1
+    originalUri: Assets/medical_props/textures/prop_normal.png
+    assetPath: Assets/medical_props/textures/prop_normal.png
+  reportItems: []

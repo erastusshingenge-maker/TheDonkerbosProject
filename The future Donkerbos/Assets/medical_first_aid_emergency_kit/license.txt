@@ -1,0 +1,11 @@
+Model Information:
+* title:	Medical First Aid Emergency Kit
+* source:	https://sketchfab.com/3d-models/medical-first-aid-emergency-kit-d588fee3c3a94c0d82884c2fc1505e9c
+* author:	Rayzn (https://sketchfab.com/Rayzn)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Medical First Aid Emergency Kit" (https://sketchfab.com/3d-models/medical-first-aid-emergency-kit-d588fee3c3a94c0d82884c2fc1505e9c) by Rayzn (https://sketchfab.com/Rayzn) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

@@ -1,0 +1,11 @@
+Model Information:
+* title:	Medical Supplies Collection
+* source:	https://sketchfab.com/3d-models/medical-supplies-collection-eae9fc470e674c458791cf00b892340f
+* author:	Miguel Adão (https://sketchfab.com/theauditor)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Medical Supplies Collection" (https://sketchfab.com/3d-models/medical-supplies-collection-eae9fc470e674c458791cf00b892340f) by Miguel Adão (https://sketchfab.com/theauditor) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
