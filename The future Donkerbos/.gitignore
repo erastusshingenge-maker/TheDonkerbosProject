@@ -115,3 +115,6 @@ InitTestScene*.unity*
 *_BackUpThisFolder_ButDontShipItWithYourGame/
 *_BurstDebugInformation_DoNotShip/
 .DS_Store
+
+# --- Local safety backups (kept on this Mac only; some are too big for GitHub) ---
+/[Bb]ackups/
