@@ -2185,6 +2185,53 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2774220344278030320, guid: 83e9d001adff6425294d02cb29b03f41, type: 3}
   m_PrefabInstance: {fileID: 160835934}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &161756401
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 161756403}
+  - component: {fileID: 161756402}
+  m_Layer: 0
+  m_Name: ChairSceneTransition
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &161756402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 161756401}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 761648947643ce34181a63a76f861fcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ConstructionSceneTransition
+  sceneToLoad: Future scene
+  delayBeforeFade: 2
+  sceneFade: {fileID: 1778248644}
+--- !u!4 &161756403
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 161756401}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 21.14948, y: -5.60005, z: -3.75157}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &162255668
 GameObject:
   m_ObjectHideFlags: 0
@@ -21711,6 +21758,7 @@ MonoBehaviour:
   requiredPlacements: 8
   isFinalStage: 1
   nextStageTriggers: []
+  sceneTransition: {fileID: 161756402}
 --- !u!4 &1558751389
 Transform:
   m_ObjectHideFlags: 0
@@ -33057,3 +33105,4 @@ SceneRoots:
   - {fileID: 572192583}
   - {fileID: 1279342005}
   - {fileID: 244236797}
+  - {fileID: 161756403}

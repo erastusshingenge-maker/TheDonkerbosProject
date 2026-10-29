@@ -9,6 +9,9 @@ public class ConstructionStageManager : MonoBehaviour
     [Header("Next Stage")]
     [SerializeField] private GameObject[] nextStageTriggers;
 
+    [Header("Scene Transition")]
+    [SerializeField] private ConstructionSceneTransition sceneTransition;
+
     public bool isHutFinished { get; private set; } = false;
 
     private int completedPlacements = 0;
@@ -31,12 +34,20 @@ public class ConstructionStageManager : MonoBehaviour
         Debug.Log("Construction progress: " +
             completedPlacements + "/" + requiredPlacements);
 
+
         if (completedPlacements >= requiredPlacements)
         {
             if (isFinalStage)
             {
                 isHutFinished = true;
-                Debug.Log("Hut construction completed!");
+
+                Debug.Log("Construction completed!");
+
+                // Start the scene transition
+                if (sceneTransition != null)
+                {
+                    sceneTransition.StartSceneTransition();
+                }
             }
             else
             {
