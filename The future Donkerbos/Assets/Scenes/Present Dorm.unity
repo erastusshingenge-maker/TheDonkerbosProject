@@ -3320,7 +3320,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SceneTransitionTrigger
   sceneToLoad: Future scene
   playerTag: Player
-  delayBeforeFade: 2
+  delayBeforeFade: 1.5
   sceneFade: {fileID: 1778248644}
 --- !u!65 &238454164
 BoxCollider:
