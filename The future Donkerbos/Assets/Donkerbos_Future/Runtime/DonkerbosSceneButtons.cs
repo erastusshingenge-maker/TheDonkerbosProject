@@ -5,7 +5,7 @@ using UnityEngine.Rendering;
 using UnityEngine.SceneManagement;
 
 // Two buttons (back < and next >) that appear in front of the player in every scene,
-// at chest height. Touch one with an index fingertip to load the previous / next scene.
+// just above head height. Touch one with an index fingertip to load the previous / next scene.
 // Scene order = File > Build Profiles > Scene List.
 //
 // Nothing needs adding to any scene: this object creates itself when the app starts.
@@ -32,7 +32,7 @@ public class DonkerbosSceneButtons : MonoBehaviour
     static Material baseMat;
 
     const float Reach = 0.5f;      // metres in front of the head
-    const float Drop = 0.35f;      // metres below head height (about chest)
+    const float Rise = 0.20f;      // metres ABOVE eye level (hovers just over the head, still easy to reach; lower = closer to eye level)
     const float Side = 0.12f;      // metres left / right of centre
     const float Half = 0.08f;      // half size of each button face
 
@@ -108,8 +108,9 @@ public class DonkerbosSceneButtons : MonoBehaviour
         Vector3 right = Vector3.Cross(Vector3.up, f);
 
         Vector3 centre = cam.transform.position + f * Reach;
-        centre.y = cam.transform.position.y - Drop;
-        Quaternion rot = Quaternion.LookRotation(f, Vector3.up);   // local +x = player's right
+        centre.y = cam.transform.position.y + Rise;
+        // Tilt the buttons so their faces turn down toward the player's eyes (local +x stays the player's right).
+        Quaternion rot = Quaternion.LookRotation((centre - cam.transform.position).normalized, Vector3.up);
 
         buttons.Add(Build(centre - right * Side, rot, -1));
         buttons.Add(Build(centre + right * Side, rot, +1));

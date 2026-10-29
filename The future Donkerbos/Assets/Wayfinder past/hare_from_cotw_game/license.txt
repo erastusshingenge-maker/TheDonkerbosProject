@@ -1,0 +1,11 @@
+Model Information:
+* title:	hare from COTW game
+* source:	https://sketchfab.com/3d-models/hare-from-cotw-game-4ffc5eb6e07344e1b191b23c2bfa3cd0
+* author:	Game-animal ripper (https://sketchfab.com/game-ripper)
+
+Model License:
+* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+* requirements:	Author must be credited. No commercial use.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "hare from COTW game" (https://sketchfab.com/3d-models/hare-from-cotw-game-4ffc5eb6e07344e1b191b23c2bfa3cd0) by Game-animal ripper (https://sketchfab.com/game-ripper) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)

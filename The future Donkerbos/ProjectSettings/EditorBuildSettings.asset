@@ -20,7 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Past scene.unity
     guid: daa62aeb9b59c4b4f974dee9db2a4443
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Cut Scene 1.unity
     guid: 29e47beddab594e458af4ca0744af2ae
   m_configObjects:
