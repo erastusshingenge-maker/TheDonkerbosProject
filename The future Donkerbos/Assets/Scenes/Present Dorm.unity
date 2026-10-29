@@ -3288,8 +3288,61 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e998ce1b35c8a4cb7ba61e1ee7925f52, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 238454163}
+    - targetCorrespondingSourceObject: {fileID: -1492582052383577166, guid: e998ce1b35c8a4cb7ba61e1ee7925f52, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 238454164}
   m_SourcePrefab: {fileID: 100100000, guid: e998ce1b35c8a4cb7ba61e1ee7925f52, type: 3}
+--- !u!1 &238454161 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e998ce1b35c8a4cb7ba61e1ee7925f52, type: 3}
+  m_PrefabInstance: {fileID: 238454160}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &238454162 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1492582052383577166, guid: e998ce1b35c8a4cb7ba61e1ee7925f52, type: 3}
+  m_PrefabInstance: {fileID: 238454160}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &238454163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 238454161}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8db6b9cb932e8149b88731e0b52e871, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SceneTransitionTrigger
+  sceneToLoad: Future scene
+  playerTag: Player
+  delayBeforeFade: 2
+  sceneFade: {fileID: 1778248644}
+--- !u!65 &238454164
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 238454162}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.09499993, y: 2.3799999, z: 1.0600003}
+  m_Center: {x: 1.7525005, y: 1.1899999, z: 2.4000006}
 --- !u!1001 &244236797
 PrefabInstance:
   m_ObjectHideFlags: 0

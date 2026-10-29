@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -8,6 +9,10 @@ public class SceneTransitionTrigger : MonoBehaviour
 
     [Header("Player Settings")]
     [SerializeField] private string playerTag = "Player";
+
+    [Header("Transition Settings")]
+    [SerializeField] private float delayBeforeFade = 2f;
+    [SerializeField] private VRSceneFade sceneFade;
 
     private bool isTransitioning = false;
 
@@ -21,7 +26,23 @@ public class SceneTransitionTrigger : MonoBehaviour
 
         isTransitioning = true;
 
-        // Load the new scene
+        Debug.Log("Player touched the door!");
+
+        StartCoroutine(ChangeScene());
+    }
+
+    private IEnumerator ChangeScene()
+    {
+        // Wait 2 seconds
+        yield return new WaitForSeconds(delayBeforeFade);
+
+        // Fade to black
+        if (sceneFade != null)
+        {
+            yield return StartCoroutine(sceneFade.FadeOut());
+        }
+
+        // Load the next scene
         SceneManager.LoadScene(sceneToLoad);
     }
 }
