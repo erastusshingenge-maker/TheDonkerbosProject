@@ -3910,7 +3910,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab0fa649efd80fa46a25e6c9d85b03c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::VRSceneFade
-  fadeDuration: 1.5
+  fadeDuration: 2
 --- !u!4 &1127574343 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8130639282211965112, guid: 210154def86032c449c70354589ecbe3, type: 3}

@@ -28,6 +28,9 @@ public class RootSceneTrigger : MonoBehaviour
 
             Debug.Log("The man received the root!");
 
+            // Disable the root immediately
+            incomingObject.SetActive(false);
+
             StartCoroutine(ChangeScene());
         }
     }
