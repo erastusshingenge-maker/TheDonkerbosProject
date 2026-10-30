@@ -39,6 +39,7 @@ TagManager:
   - Back
   - Leg
   - Root
+  - Plaster
   layers:
   - Default
   - TransparentFX
