@@ -214,8 +214,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a7471a702a08642a057ac02d86fe51, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RootSceneTrigger
-  requiredTag: 
+  requiredTag: Root
   disableObjectOnTrigger: 1
+  objectToEnable: {fileID: 0}
+  characterAnimator: {fileID: 2073675097}
+  animationTriggerName: BecomeHealthy
   sceneToLoad: Present Dorm
   delayBeforeFade: 5
   sceneFadeSphere: {fileID: 1086448572}
@@ -8668,6 +8671,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 21c80616f93beb84296133304873134d, type: 3}
       propertyPath: m_Name
       value: Hunter2
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 21c80616f93beb84296133304873134d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: 21c80616f93beb84296133304873134d, type: 3}
       propertyPath: m_Controller
@@ -20125,6 +20132,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Hunter1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 21c80616f93beb84296133304873134d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: 21c80616f93beb84296133304873134d, type: 3}
       propertyPath: m_Controller
       value: 
@@ -20530,6 +20541,11 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 21453666}
   m_SourcePrefab: {fileID: 100100000, guid: 21c80616f93beb84296133304873134d, type: 3}
+--- !u!95 &2073675097 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 5866666021909216657, guid: 21c80616f93beb84296133304873134d, type: 3}
+  m_PrefabInstance: {fileID: 2073675096}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2097640813
 PrefabInstance:
   m_ObjectHideFlags: 0

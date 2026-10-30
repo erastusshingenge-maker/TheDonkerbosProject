@@ -8,6 +8,13 @@ public class ObjectSceneTrigger : MonoBehaviour
     [SerializeField] private string requiredTag;
     [SerializeField] private bool disableObjectOnTrigger = true;
 
+    [Header("Object to Enable (Optional)")]
+    [SerializeField] private GameObject objectToEnable;
+
+    [Header("Animation Settings")]
+    [SerializeField] private Animator characterAnimator;
+    [SerializeField] private string animationTriggerName;
+
     [Header("Scene Settings")]
     [SerializeField] private string sceneToLoad;
 
@@ -32,10 +39,23 @@ public class ObjectSceneTrigger : MonoBehaviour
 
             Debug.Log("Object received: " + requiredTag);
 
-            // Disable the object if enabled
+            // Disable the incoming object
             if (disableObjectOnTrigger)
             {
                 incomingObject.SetActive(false);
+            }
+
+            // Enable another object if assigned
+            if (objectToEnable != null)
+            {
+                objectToEnable.SetActive(true);
+            }
+
+            // Trigger character animation
+            if (characterAnimator != null &&
+                !string.IsNullOrEmpty(animationTriggerName))
+            {
+                characterAnimator.SetTrigger(animationTriggerName);
             }
 
             StartCoroutine(ChangeScene());
