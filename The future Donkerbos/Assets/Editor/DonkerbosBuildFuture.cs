@@ -7,7 +7,16 @@ public static class DonkerbosBuildFuture
     public static void Build()
     {
         const string root = "Assets/Donkerbos_Future";
+        const bool includeNpcs = false; // set true to place the NPC characters again
+        // Rebuild cleanly: remove any previous Future_SkillsCentre first, so this can be run again and again.
+        var old = GameObject.Find("Future_SkillsCentre");
+        while (old != null)
+        {
+            Undo.DestroyObjectImmediate(old);
+            old = GameObject.Find("Future_SkillsCentre");
+        }
         var parent = new GameObject("Future_SkillsCentre");
+        Undo.RegisterCreatedObjectUndo(parent, "Build Future Scene");
 
         var env = AssetDatabase.LoadAssetAtPath<GameObject>(root + "/SkillsCentre_Environment.fbx");
         if (env != null)
@@ -18,7 +27,7 @@ public static class DonkerbosBuildFuture
         else Debug.LogWarning("SkillsCentre_Environment.fbx not found in " + root);
 
         int ok = 0, bad = 0;
-        foreach (var guid in AssetDatabase.FindAssets("t:Model", new[] { root + "/Characters" }))
+        foreach (var guid in includeNpcs ? AssetDatabase.FindAssets("t:Model", new[] { root + "/Characters" }) : new string[0])
         {
             var path = AssetDatabase.GUIDToAssetPath(guid);
             var imp = AssetImporter.GetAtPath(path) as ModelImporter;
