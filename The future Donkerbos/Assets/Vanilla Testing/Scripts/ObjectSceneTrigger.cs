@@ -22,6 +22,10 @@ public class ObjectSceneTrigger : MonoBehaviour
     [SerializeField] private float delayBeforeFade = 2f;
     [SerializeField] private VRSceneFade sceneFadeSphere;
 
+    [Header("Choice Tracking")]
+    [SerializeField] private int sceneNumber = 1;
+    [SerializeField] private string playerChoice = "Heal";
+
     private bool hasBeenTriggered = false;
 
     private void OnTriggerEnter(Collider other)
@@ -56,6 +60,19 @@ public class ObjectSceneTrigger : MonoBehaviour
                 !string.IsNullOrEmpty(animationTriggerName))
             {
                 characterAnimator.SetTrigger(animationTriggerName);
+            }
+
+            // Record the player's choice
+            if (DonkerbosChoiceTracker.Instance != null)
+            {
+                DonkerbosChoiceTracker.Instance.RecordChoice(
+                    sceneNumber,
+                    playerChoice
+                );
+            }
+            else
+            {
+                Debug.LogWarning("DonkerbosChoiceTracker not found!");
             }
 
             StartCoroutine(ChangeScene());

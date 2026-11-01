@@ -6,6 +6,7 @@ public class SceneTransitionTrigger : MonoBehaviour
 {
     [Header("Scene Settings")]
     [SerializeField] private string sceneToLoad;
+    [SerializeField] private bool endExperience = false;
 
     [Header("Player Settings")]
     [SerializeField] private string playerTag = "Player";
@@ -14,26 +15,42 @@ public class SceneTransitionTrigger : MonoBehaviour
     [SerializeField] private float delayBeforeFade = 2f;
     [SerializeField] private VRSceneFade sceneFade;
 
+    [Header("Choice Tracking")]
+    [SerializeField] private int sceneNumber = 1;
+    [SerializeField] private string playerChoice = "Find";
+
     private bool isTransitioning = false;
 
     private void OnTriggerEnter(Collider other)
     {
         if (isTransitioning) return;
 
-        // Check if the player touched the trigger
         if (!other.CompareTag(playerTag))
             return;
 
         isTransitioning = true;
 
-        Debug.Log("Player touched the door!");
+        Debug.Log("Player entered trigger!");
+
+        // Record the player's choice
+        if (DonkerbosChoiceTracker.Instance != null)
+        {
+            DonkerbosChoiceTracker.Instance.RecordChoice(
+                sceneNumber,
+                playerChoice
+            );
+        }
+        else
+        {
+            Debug.LogWarning("DonkerbosChoiceTracker not found!");
+        }
 
         StartCoroutine(ChangeScene());
     }
 
     private IEnumerator ChangeScene()
     {
-        // Wait 2 seconds
+        // Wait before fading
         yield return new WaitForSeconds(delayBeforeFade);
 
         // Fade to black
@@ -42,7 +59,21 @@ public class SceneTransitionTrigger : MonoBehaviour
             yield return StartCoroutine(sceneFade.FadeOut());
         }
 
-        // Load the next scene
-        SceneManager.LoadScene(sceneToLoad);
+        // End the experience if selected
+        if (endExperience)
+        {
+            Debug.Log("Donkerbos experience completed!");
+
+#if UNITY_EDITOR
+            UnityEditor.EditorApplication.isPlaying = false;
+#else
+            Application.Quit();
+#endif
+        }
+        else
+        {
+            // Load the next scene normally
+            SceneManager.LoadScene(sceneToLoad);
+        }
     }
 }

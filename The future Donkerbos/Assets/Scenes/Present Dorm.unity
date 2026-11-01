@@ -2222,6 +2222,8 @@ MonoBehaviour:
   sceneToLoad: Future scene
   delayBeforeFade: 2
   sceneFade: {fileID: 1778248644}
+  sceneNumber: 2
+  playerChoice: Build
 --- !u!4 &161756403
 Transform:
   m_ObjectHideFlags: 0
@@ -3219,6 +3221,8 @@ MonoBehaviour:
   sceneToLoad: Future scene
   delayBeforeFade: 2
   sceneFadeSphere: {fileID: 1778248644}
+  sceneNumber: 2
+  playerChoice: Heal
 --- !u!64 &235884333
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3528,6 +3532,8 @@ MonoBehaviour:
   playerTag: Player
   delayBeforeFade: 1.5
   sceneFade: {fileID: 1778248644}
+  sceneNumber: 1
+  playerChoice: Build
 --- !u!65 &238454164
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23191,6 +23197,8 @@ MonoBehaviour:
   sceneToLoad: Future scene
   delayBeforeFade: 10
   sceneFadeSphere: {fileID: 1778248644}
+  sceneNumber: 1
+  playerChoice: Heal
 --- !u!135 &1584601273
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -23444,6 +23452,8 @@ MonoBehaviour:
   playerTag: Player
   delayBeforeFade: 15
   sceneFade: {fileID: 1778248644}
+  sceneNumber: 2
+  playerChoice: Find
 --- !u!1 &1616927470
 GameObject:
   m_ObjectHideFlags: 0

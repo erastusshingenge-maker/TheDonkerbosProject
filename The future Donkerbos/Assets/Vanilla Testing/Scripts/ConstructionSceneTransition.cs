@@ -11,6 +11,10 @@ public class ConstructionSceneTransition : MonoBehaviour
     [SerializeField] private float delayBeforeFade = 2f;
     [SerializeField] private VRSceneFade sceneFade;
 
+    [Header("Choice Tracking")]
+    [SerializeField] private int sceneNumber = 1;
+    [SerializeField] private string playerChoice = "Build";
+
     private bool transitionStarted = false;
 
     public void StartSceneTransition()
@@ -19,7 +23,20 @@ public class ConstructionSceneTransition : MonoBehaviour
 
         transitionStarted = true;
 
-        Debug.Log("Chair completed! Starting scene transition.");
+        Debug.Log("Construction completed! Starting scene transition.");
+
+        // Record the player's choice
+        if (DonkerbosChoiceTracker.Instance != null)
+        {
+            DonkerbosChoiceTracker.Instance.RecordChoice(
+                sceneNumber,
+                playerChoice
+            );
+        }
+        else
+        {
+            Debug.LogWarning("DonkerbosChoiceTracker not found!");
+        }
 
         StartCoroutine(ChangeScene());
     }
