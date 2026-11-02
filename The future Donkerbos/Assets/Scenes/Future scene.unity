@@ -1042,8 +1042,8 @@ Transform:
   m_GameObject: {fileID: 76977689}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.9749212, z: -0, w: 0.22255053}
-  m_LocalPosition: {x: 10.35, y: 5.94, z: -11.34}
-  m_LocalScale: {x: 8.1, y: 0.21, z: 2.85}
+  m_LocalPosition: {x: 11.797, y: 7.016, z: -13.272}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1057,16 +1057,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 76977689}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e8db6b9cb932e8149b88731e0b52e871, type: 3}
+  m_Script: {fileID: 11500000, guid: 611ab34fcc9d98b4fb239a14a6bafe56, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SceneTransitionTrigger
-  sceneToLoad: 
-  endExperience: 1
-  playerTag: Player
+  m_EditorClassIdentifier: Assembly-CSharp::DonkerbosFinalDoor
+  requiredTag: Key
+  disableKeyOnTrigger: 1
+  playerChoice: Heal
   delayBeforeFade: 3
   sceneFade: {fileID: 139345173}
-  sceneNumber: 3
-  playerChoice: Heal
 --- !u!1 &79869110
 GameObject:
   m_ObjectHideFlags: 0
@@ -3778,8 +3776,8 @@ Transform:
   m_GameObject: {fileID: 318695280}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.98262036, z: -0, w: -0.1856266}
-  m_LocalPosition: {x: -10.76, y: 5.94, z: -10.7}
-  m_LocalScale: {x: 8.1, y: 0.21, z: 2.85}
+  m_LocalPosition: {x: -11.79, y: 7.11, z: -13.345}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -3793,16 +3791,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 318695280}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e8db6b9cb932e8149b88731e0b52e871, type: 3}
+  m_Script: {fileID: 11500000, guid: 611ab34fcc9d98b4fb239a14a6bafe56, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SceneTransitionTrigger
-  sceneToLoad: 
-  endExperience: 1
-  playerTag: Player
+  m_EditorClassIdentifier: Assembly-CSharp::DonkerbosFinalDoor
+  requiredTag: Key
+  disableKeyOnTrigger: 1
+  playerChoice: Heal
   delayBeforeFade: 3
   sceneFade: {fileID: 139345173}
-  sceneNumber: 3
-  playerChoice: Heal
 --- !u!1 &319653491
 GameObject:
   m_ObjectHideFlags: 0
@@ -5863,11 +5859,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: edb09657fd3c5472695347c96abbc91e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 9.804
+      value: 9.264
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: edb09657fd3c5472695347c96abbc91e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.581
+      value: 5.976
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: edb09657fd3c5472695347c96abbc91e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5904,6 +5900,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: edb09657fd3c5472695347c96abbc91e, type: 3}
       propertyPath: m_Name
       value: Future_Male
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: edb09657fd3c5472695347c96abbc91e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7524,8 +7524,8 @@ Transform:
   m_GameObject: {fileID: 623325128}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.70702696, z: -0, w: 0.7071866}
-  m_LocalPosition: {x: 19.33, y: 5.94, z: -0.04}
-  m_LocalScale: {x: 8.1, y: 0.21, z: 2.85}
+  m_LocalPosition: {x: 22.19, y: 7.124, z: -0.04}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -7539,16 +7539,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 623325128}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e8db6b9cb932e8149b88731e0b52e871, type: 3}
+  m_Script: {fileID: 11500000, guid: 611ab34fcc9d98b4fb239a14a6bafe56, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SceneTransitionTrigger
-  sceneToLoad: 
-  endExperience: 1
-  playerTag: Player
+  m_EditorClassIdentifier: Assembly-CSharp::DonkerbosFinalDoor
+  requiredTag: Key
+  disableKeyOnTrigger: 1
+  playerChoice: Find
   delayBeforeFade: 3
   sceneFade: {fileID: 139345173}
-  sceneNumber: 3
-  playerChoice: Find
 --- !u!1 &624074572
 GameObject:
   m_ObjectHideFlags: 0
@@ -11959,8 +11957,8 @@ Transform:
   m_GameObject: {fileID: 1052277834}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.16145554, z: -0, w: 0.98688006}
-  m_LocalPosition: {x: 9.53, y: 5.94, z: 11.38}
-  m_LocalScale: {x: 8.1, y: 0.21, z: 2.85}
+  m_LocalPosition: {x: 10.83, y: 7.031, z: 13.67}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -11974,16 +11972,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1052277834}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e8db6b9cb932e8149b88731e0b52e871, type: 3}
+  m_Script: {fileID: 11500000, guid: 611ab34fcc9d98b4fb239a14a6bafe56, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SceneTransitionTrigger
-  sceneToLoad: 
-  endExperience: 1
-  playerTag: Player
+  m_EditorClassIdentifier: Assembly-CSharp::DonkerbosFinalDoor
+  requiredTag: Key
+  disableKeyOnTrigger: 1
+  playerChoice: Find
   delayBeforeFade: 3
   sceneFade: {fileID: 139345173}
-  sceneNumber: 3
-  playerChoice: Find
 --- !u!1001 &1059974303
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12097,6 +12093,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: SkillsCentre_Environment
       objectReference: {fileID: 0}
+    - target: {fileID: 3728679121689305500, guid: 338edbfe9108e43eeb47f177860e89dc, type: 3}
+      propertyPath: m_TagString
+      value: Key
+      objectReference: {fileID: 0}
+    - target: {fileID: 4418869300067133038, guid: 338edbfe9108e43eeb47f177860e89dc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.001
+      objectReference: {fileID: 0}
+    - target: {fileID: 4418869300067133038, guid: 338edbfe9108e43eeb47f177860e89dc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.01115
+      objectReference: {fileID: 0}
     - target: {fileID: 7643517075452686742, guid: 338edbfe9108e43eeb47f177860e89dc, type: 3}
       propertyPath: m_LocalPosition.x
       value: 15.06
@@ -12108,13 +12116,175 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: -7583772351937545228, guid: 338edbfe9108e43eeb47f177860e89dc, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1060937104}
+    - targetCorrespondingSourceObject: {fileID: 3728679121689305500, guid: 338edbfe9108e43eeb47f177860e89dc, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1060937103}
+    - targetCorrespondingSourceObject: {fileID: 3728679121689305500, guid: 338edbfe9108e43eeb47f177860e89dc, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1060937102}
+    - targetCorrespondingSourceObject: {fileID: 3728679121689305500, guid: 338edbfe9108e43eeb47f177860e89dc, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1060937101}
+    - targetCorrespondingSourceObject: {fileID: 3728679121689305500, guid: 338edbfe9108e43eeb47f177860e89dc, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1060937100}
   m_SourcePrefab: {fileID: 100100000, guid: 338edbfe9108e43eeb47f177860e89dc, type: 3}
 --- !u!4 &1060937096 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 338edbfe9108e43eeb47f177860e89dc, type: 3}
   m_PrefabInstance: {fileID: 1060937095}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &1060937097 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4418869300067133038, guid: 338edbfe9108e43eeb47f177860e89dc, type: 3}
+  m_PrefabInstance: {fileID: 1060937095}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1060937098 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3728679121689305500, guid: 338edbfe9108e43eeb47f177860e89dc, type: 3}
+  m_PrefabInstance: {fileID: 1060937095}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1060937099 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -7583772351937545228, guid: 338edbfe9108e43eeb47f177860e89dc, type: 3}
+  m_PrefabInstance: {fileID: 1060937095}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1060937100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1060937098}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9a7676b01585ce43908639a27765dfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Oculus.Interaction::Oculus.Interaction.HandGrab.HandGrabInteractable
+  _interactorFilters: []
+  _maxInteractors: -1
+  _maxSelectingInteractors: -1
+  _data: {fileID: 0}
+  _pointableElement: {fileID: 1060937101}
+  _rigidbody: {fileID: 1060937103}
+  _resetGrabOnGrabsUpdated: 1
+  _scoringModifier:
+    _positionRotationWeight: 0.8
+  _slippiness: 0
+  _supportedGrabTypes: 3
+  _pinchGrabRules:
+    _thumbRequirement: 1
+    _indexRequirement: 1
+    _middleRequirement: 1
+    _ringRequirement: 0
+    _pinkyRequirement: 0
+    _unselectMode: 0
+  _palmGrabRules:
+    _thumbRequirement: 1
+    _indexRequirement: 2
+    _middleRequirement: 2
+    _ringRequirement: 2
+    _pinkyRequirement: 1
+    _unselectMode: 0
+  _movementProvider: {fileID: 0}
+  _handAligment: 1
+  _handGrabPoses: []
+--- !u!114 &1060937101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1060937098}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43f86b14a27b52f4f9298c33015b5c26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Oculus.Interaction::Oculus.Interaction.Grabbable
+  _transferOnSecondSelection: 0
+  _addNewPointsToFront: 0
+  _forwardElement: {fileID: 0}
+  _oneGrabTransformer: {fileID: 0}
+  _twoGrabTransformer: {fileID: 0}
+  _targetTransform: {fileID: 1060937097}
+  _maxGrabPoints: -1
+  _rigidbody: {fileID: 1060937103}
+  _kinematicWhileSelected: 1
+  _throwWhenUnselected: 1
+  _forceKinematicDisabled: 0
+--- !u!65 &1060937102
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1060937098}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.0011, y: 0.00019021127, z: 0.0036499992}
+  m_Center: {x: 0, y: -0.000000014901161, z: -0.0012749997}
+--- !u!54 &1060937103
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1060937098}
+  serializedVersion: 5
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &1060937104
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1060937099}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.00035999998, y: 0.0011999997, z: 0.0003599999}
+  m_Center: {x: 0, y: -0.00084999984, z: 0.011199998}
 --- !u!1 &1071185707
 GameObject:
   m_ObjectHideFlags: 0
@@ -22129,7 +22299,7 @@ GameObject:
   - component: {fileID: 1803083000}
   - component: {fileID: 1803082999}
   - component: {fileID: 1803082998}
-  - component: {fileID: 1803082997}
+  - component: {fileID: 1803083002}
   m_Layer: 0
   m_Name: BuildChoiceEndSceneTrigger
   m_TagString: Untagged
@@ -22137,25 +22307,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1803082997
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1803082996}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e8db6b9cb932e8149b88731e0b52e871, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SceneTransitionTrigger
-  sceneToLoad: 
-  endExperience: 1
-  playerTag: Player
-  delayBeforeFade: 3
-  sceneFade: {fileID: 139345173}
-  sceneNumber: 3
-  playerChoice: Build
 --- !u!65 &1803082998
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22243,12 +22394,29 @@ Transform:
   m_GameObject: {fileID: 1803082996}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.7119144, z: -0, w: -0.7022662}
-  m_LocalPosition: {x: -19.35, y: 5.94, z: -0.13}
-  m_LocalScale: {x: 8.1, y: 0.21, z: 2.85}
+  m_LocalPosition: {x: -22.157, y: 6.982, z: 0.073}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 269.21802, z: 0}
+--- !u!114 &1803083002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1803082996}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 611ab34fcc9d98b4fb239a14a6bafe56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DonkerbosFinalDoor
+  requiredTag: Key
+  disableKeyOnTrigger: 1
+  playerChoice: Build
+  delayBeforeFade: 3
+  sceneFade: {fileID: 139345173}
 --- !u!1 &1810037898
 GameObject:
   m_ObjectHideFlags: 0
@@ -24407,7 +24575,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2052815210}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -24466,8 +24634,8 @@ Transform:
   m_GameObject: {fileID: 2052815210}
   serializedVersion: 2
   m_LocalRotation: {x: 0.0038972225, y: 0.17291602, z: 0.004168201, w: -0.9849201}
-  m_LocalPosition: {x: -9.68, y: 5.95, z: 11.39}
-  m_LocalScale: {x: 8.1, y: 0.21, z: 2.85}
+  m_LocalPosition: {x: -10.749, y: 6.923, z: 13.641}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -24481,16 +24649,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 2052815210}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e8db6b9cb932e8149b88731e0b52e871, type: 3}
+  m_Script: {fileID: 11500000, guid: 611ab34fcc9d98b4fb239a14a6bafe56, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SceneTransitionTrigger
-  sceneToLoad: 
-  endExperience: 1
-  playerTag: Player
+  m_EditorClassIdentifier: Assembly-CSharp::DonkerbosFinalDoor
+  requiredTag: Key
+  disableKeyOnTrigger: 1
+  playerChoice: Build
   delayBeforeFade: 3
   sceneFade: {fileID: 139345173}
-  sceneNumber: 3
-  playerChoice: Build
 --- !u!1 &2056375431
 GameObject:
   m_ObjectHideFlags: 0
