@@ -20524,7 +20524,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 21c80616f93beb84296133304873134d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.945
+      value: -4.028
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 21c80616f93beb84296133304873134d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -20572,13 +20572,11 @@ PrefabInstance:
       objectReference: {fileID: 9100000, guid: 9f853cf62b3a94e85a3a932af1a34719, type: 2}
     - target: {fileID: 5866666021909216657, guid: 21c80616f93beb84296133304873134d, type: 3}
       propertyPath: m_WarningMessage
-      value: "\nBinding warning: Some generic clip(s) animate transforms that are
-        already bound by a Humanoid avatar. These transforms can only be changed
-        by Humanoid clips.\n\tTransform 'f_middle.01.R'\n\tTransform 'spine.006'\n\tTransform
-        'f_index.01.R'\n\tTransform 'palm.04.L'\n\tTransform 'shin.R'\n\tTransform
-        'f_pinky.03.R'\n\tTransform 'hand.R'\n\tTransform 'thumb.02.L'\n\tTransform
-        'f_ring.01.L'\n\tTransform 'toe.L'\n\tand more ...\n\tFrom animation clip
-        'mixamo.com'\n\tFrom animation clip 'mixamo.com'"
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 21c80616f93beb84296133304873134d, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
