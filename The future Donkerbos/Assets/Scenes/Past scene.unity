@@ -222,6 +222,8 @@ MonoBehaviour:
   sceneToLoad: Present Dorm
   delayBeforeFade: 5
   sceneFadeSphere: {fileID: 1086448572}
+  sceneNumber: 1
+  playerChoice: Heal
 --- !u!65 &21453667
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1195,6 +1197,8 @@ MonoBehaviour:
   sceneToLoad: Present Dorm
   delayBeforeFade: 2
   sceneFade: {fileID: 1086448572}
+  sceneNumber: 1
+  playerChoice: Build
 --- !u!4 &120213978
 Transform:
   m_ObjectHideFlags: 0
@@ -15926,7 +15930,7 @@ GameObject:
   - component: {fileID: 1540617517}
   m_Layer: 0
   m_Name: '[BuildingBlock] Camera Rig'
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19834,8 +19838,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SceneTransitionTrigger
   sceneToLoad: Present Dorm
+  endExperience: 0
   playerTag: Player
-  delayBeforeFade: 5
+  delayBeforeFade: 3
   sceneFade: {fileID: 1086448572}
   sceneNumber: 1
   playerChoice: Find
@@ -19854,7 +19859,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
