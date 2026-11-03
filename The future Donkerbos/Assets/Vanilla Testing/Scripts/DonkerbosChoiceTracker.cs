@@ -8,6 +8,7 @@ public class DonkerbosChoiceTracker : MonoBehaviour
 
     private string filePath;
     private int playerID;
+    private string startTime;
 
     private string scene1Choice = "";
     private string scene2Choice = "";
@@ -25,22 +26,26 @@ public class DonkerbosChoiceTracker : MonoBehaviour
         Instance = this;
         DontDestroyOnLoad(gameObject);
 
-        // Location of the CSV file
+        // Record when the participant starts
+        startTime = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
+
+        // CSV file location
         filePath = Path.Combine(
             Application.persistentDataPath,
             "DonkerbosPlayerChoices.csv"
         );
 
-        // Create the CSV file if it doesn't exist
+        // Create CSV if it doesn't exist
         if (!File.Exists(filePath))
         {
             File.WriteAllText(
                 filePath,
-                "PlayerID,Scene1,Scene2,Scene3" + Environment.NewLine
+                "PlayerID,StartTime,Scene1,Scene2,Scene3"
+                + Environment.NewLine
             );
         }
 
-        // Find the next player number
+        // Find the next participant number
         string[] lines = File.ReadAllLines(filePath);
 
         int highestID = 0;
@@ -61,16 +66,17 @@ public class DonkerbosChoiceTracker : MonoBehaviour
 
         playerID = highestID + 1;
 
-        // Save a new row for this participant
+        // Create participant row
         SaveChoices();
 
         Debug.Log("Donkerbos participant started: Player " + playerID);
+        Debug.Log("Start time: " + startTime);
         Debug.Log("Results file: " + filePath);
     }
 
     public void RecordChoice(int sceneNumber, string choice)
     {
-        // Check that the choice is valid
+        // Validate choice
         if (choice != "Build" &&
             choice != "Find" &&
             choice != "Heal")
@@ -116,13 +122,14 @@ public class DonkerbosChoiceTracker : MonoBehaviour
 
         string entry =
             playerID + "," +
+            startTime + "," +
             scene1Choice + "," +
             scene2Choice + "," +
             scene3Choice;
 
         bool playerFound = false;
 
-        // Update the participant's existing row
+        // Update existing participant row
         for (int i = 1; i < lines.Length; i++)
         {
             if (lines[i].StartsWith(playerID + ","))
