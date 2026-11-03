@@ -7667,6 +7667,10 @@ PrefabInstance:
       value: FirstAidKit
       objectReference: {fileID: 0}
     - target: {fileID: 5354326163614394295, guid: c85ca64698033469c9e2c0684a8d6727, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5354326163614394295, guid: c85ca64698033469c9e2c0684a8d6727, type: 3}
       propertyPath: m_TagString
       value: Plaster
       objectReference: {fileID: 0}
@@ -14369,6 +14373,14 @@ PrefabInstance:
     - target: {fileID: 3497063247922825244, guid: 0a7d2469f24041c4284c66706f84c45e, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0.0005570275
+      objectReference: {fileID: 0}
+    - target: {fileID: 3903482225804038116, guid: 0a7d2469f24041c4284c66706f84c45e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3903482225804038118, guid: 0a7d2469f24041c4284c66706f84c45e, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3942239840395760880, guid: 0a7d2469f24041c4284c66706f84c45e, type: 3}
       propertyPath: m_LocalRotation.w
@@ -32608,7 +32620,7 @@ GameObject:
   - component: {fileID: 8524817050358059490}
   - component: {fileID: 8861063575347601464}
   - component: {fileID: 8861063575347601465}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Back2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32630,7 +32642,7 @@ GameObject:
   - component: {fileID: 1444978346}
   - component: {fileID: 1444978345}
   - component: {fileID: 1444978344}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Back
   m_TagString: Back
   m_Icon: {fileID: 0}
@@ -33038,7 +33050,7 @@ GameObject:
   - component: {fileID: 419687495}
   - component: {fileID: 419687494}
   - component: {fileID: 419687493}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Grabbabke back Small
   m_TagString: HBS
   m_Icon: {fileID: 0}
@@ -33057,7 +33069,7 @@ GameObject:
   - component: {fileID: 5619590791976927311}
   - component: {fileID: 8352102822477261591}
   - component: {fileID: 8352102822477261592}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Horizontal Backpiece Small
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33079,7 +33091,7 @@ GameObject:
   - component: {fileID: 2032831818}
   - component: {fileID: 2032831817}
   - component: {fileID: 2032831816}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Back
   m_TagString: Back
   m_Icon: {fileID: 0}
@@ -33098,7 +33110,7 @@ GameObject:
   - component: {fileID: 1526706842660478159}
   - component: {fileID: 9044933622303384467}
   - component: {fileID: 9044933622303384468}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Back1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33178,7 +33190,7 @@ GameObject:
   - component: {fileID: 5851315591984416135}
   - component: {fileID: 7889197619046009110}
   - component: {fileID: 7889197619046009113}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Leg 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33200,7 +33212,7 @@ GameObject:
   - component: {fileID: 592016841}
   - component: {fileID: 592016840}
   - component: {fileID: 592016839}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Grabbable Leg 2
   m_TagString: Leg
   m_Icon: {fileID: 0}
@@ -33222,7 +33234,7 @@ GameObject:
   - component: {fileID: 1545857398}
   - component: {fileID: 1545857397}
   - component: {fileID: 1545857396}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Grabbable Back Big
   m_TagString: HBB
   m_Icon: {fileID: 0}
@@ -33241,7 +33253,7 @@ GameObject:
   - component: {fileID: 6778484876539703242}
   - component: {fileID: 1627550297967038283}
   - component: {fileID: 6778484876539703243}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Horizontal Backpiece Big
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33260,7 +33272,7 @@ GameObject:
   - component: {fileID: 8744513023196689464}
   - component: {fileID: 117420978152348634}
   - component: {fileID: 8744513023196689467}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Leg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33282,7 +33294,7 @@ GameObject:
   - component: {fileID: 1711665593}
   - component: {fileID: 1711665592}
   - component: {fileID: 1711665591}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Grabbable Leg
   m_TagString: Leg
   m_Icon: {fileID: 0}
@@ -33358,7 +33370,7 @@ GameObject:
   - component: {fileID: 623830037}
   - component: {fileID: 623830036}
   - component: {fileID: 623830035}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Grabbable Leg 1
   m_TagString: Leg
   m_Icon: {fileID: 0}
@@ -33377,7 +33389,7 @@ GameObject:
   - component: {fileID: 1599707701121206889}
   - component: {fileID: 1826563365246591455}
   - component: {fileID: 7380684388557499985}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Leg 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33830,7 +33842,7 @@ GameObject:
   - component: {fileID: 237275636}
   - component: {fileID: 237275635}
   - component: {fileID: 237275634}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Grabbable Leg 3
   m_TagString: Leg
   m_Icon: {fileID: 0}
@@ -33849,7 +33861,7 @@ GameObject:
   - component: {fileID: 6306836597984386873}
   - component: {fileID: 3007734555700142793}
   - component: {fileID: 8425541426471447574}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Leg 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
