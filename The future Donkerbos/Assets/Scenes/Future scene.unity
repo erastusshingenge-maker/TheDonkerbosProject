@@ -1076,7 +1076,7 @@ MonoBehaviour:
   disableKeyOnTrigger: 1
   playerChoice: Heal
   finalAudio: {fileID: 360473708}
-  delayBeforeFade: 3
+  delayBeforeFade: 120
   sceneFade: {fileID: 139345173}
 --- !u!1 &79869110
 GameObject:
@@ -3811,7 +3811,7 @@ MonoBehaviour:
   disableKeyOnTrigger: 1
   playerChoice: Heal
   finalAudio: {fileID: 360473708}
-  delayBeforeFade: 3
+  delayBeforeFade: 120
   sceneFade: {fileID: 139345173}
 --- !u!1 &319653491
 GameObject:
@@ -4090,7 +4090,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 0}
+  m_Resource: {fileID: 8300000, guid: aeeb596ac4aac4410aaac7e135b9845a, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -7689,7 +7689,7 @@ MonoBehaviour:
   disableKeyOnTrigger: 1
   playerChoice: Find
   finalAudio: {fileID: 360473708}
-  delayBeforeFade: 3
+  delayBeforeFade: 120
   sceneFade: {fileID: 139345173}
 --- !u!1 &624074572
 GameObject:
@@ -12123,7 +12123,7 @@ MonoBehaviour:
   disableKeyOnTrigger: 1
   playerChoice: Find
   finalAudio: {fileID: 360473708}
-  delayBeforeFade: 3
+  delayBeforeFade: 120
   sceneFade: {fileID: 139345173}
 --- !u!1001 &1059974303
 PrefabInstance:
@@ -22565,7 +22565,7 @@ MonoBehaviour:
   disableKeyOnTrigger: 1
   playerChoice: Build
   finalAudio: {fileID: 360473708}
-  delayBeforeFade: 3
+  delayBeforeFade: 120
   sceneFade: {fileID: 139345173}
 --- !u!1 &1810037898
 GameObject:
@@ -24806,7 +24806,7 @@ MonoBehaviour:
   disableKeyOnTrigger: 1
   playerChoice: Build
   finalAudio: {fileID: 360473708}
-  delayBeforeFade: 3
+  delayBeforeFade: 120
   sceneFade: {fileID: 139345173}
 --- !u!1 &2056375431
 GameObject:
