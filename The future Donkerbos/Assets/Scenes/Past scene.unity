@@ -20925,6 +20925,18 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -8565215126003133376, guid: 21c80616f93beb84296133304873134d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2140587665155386916, guid: 21c80616f93beb84296133304873134d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 771987299780319876, guid: 21c80616f93beb84296133304873134d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 21c80616f93beb84296133304873134d, type: 3}
       propertyPath: m_Name
       value: maleUpdated
@@ -20932,6 +20944,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 21c80616f93beb84296133304873134d, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5087742295612483383, guid: 21c80616f93beb84296133304873134d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: 21c80616f93beb84296133304873134d, type: 3}
       propertyPath: m_Controller
