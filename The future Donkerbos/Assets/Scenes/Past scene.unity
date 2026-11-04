@@ -10846,15 +10846,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: aa6c2f2052bb3ab49af12870c72e559c, type: 3}
       propertyPath: m_LocalScale.x
-      value: 2.5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: aa6c2f2052bb3ab49af12870c72e559c, type: 3}
       propertyPath: m_LocalScale.y
-      value: 2.5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: aa6c2f2052bb3ab49af12870c72e559c, type: 3}
       propertyPath: m_LocalScale.z
-      value: 2.5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: aa6c2f2052bb3ab49af12870c72e559c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10862,7 +10862,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: aa6c2f2052bb3ab49af12870c72e559c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.0047
+      value: -3.9953
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: aa6c2f2052bb3ab49af12870c72e559c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -11415,6 +11415,86 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 1b3fd86c72f9720439760e110c1bd070, type: 3}
   m_PrefabInstance: {fileID: 1128231932}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1138573869
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1138573870}
+  - component: {fileID: 1138573872}
+  - component: {fileID: 1138573871}
+  m_Layer: 0
+  m_Name: Roottrigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1138573870
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1138573869}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.12968418, y: 0.0000000016697969, z: 0.0000000131658835, w: 0.9915554}
+  m_LocalPosition: {x: 0.0125, y: 0.0033, z: 0.01055}
+  m_LocalScale: {x: 0.05, y: 0.05, z: 0.05}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 2073675099}
+  m_LocalEulerAnglesHint: {x: -14.903, y: 0, z: 0}
+--- !u!114 &1138573871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1138573869}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39a7471a702a08642a057ac02d86fe51, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjectSceneTrigger
+  requiredTag: Root
+  disableObjectOnTrigger: 1
+  objectToEnable: {fileID: 0}
+  characterAnimator: {fileID: 2073675097}
+  animationTriggerName: BecomeHealthy
+  beforeInteractionAudio: {fileID: 627242374}
+  afterInteractionAudio: {fileID: 1779451827}
+  sceneToLoad: Present Dorm
+  delayBeforeFade: 2
+  sceneFadeSphere: {fileID: 1086448572}
+  sceneNumber: 1
+  playerChoice: Heal
+--- !u!136 &1138573872
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1138573869}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.040706504
+  m_Height: 0.44389513
+  m_Direction: 1
+  m_Center: {x: -0.25315046, y: -0.0038074176, z: -0.20612748}
 --- !u!1001 &1140821062
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20849,6 +20929,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: maleUpdated
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 21c80616f93beb84296133304873134d, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: 21c80616f93beb84296133304873134d, type: 3}
       propertyPath: m_Controller
       value: 
@@ -20876,6 +20960,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 21c80616f93beb84296133304873134d, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1779451828}
+    - targetCorrespondingSourceObject: {fileID: 6347582275389131328, guid: 21c80616f93beb84296133304873134d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1138573870}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 21c80616f93beb84296133304873134d, type: 3}
       insertIndex: -1
@@ -20892,6 +20979,11 @@ Animator:
 --- !u!4 &2073675098 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 21c80616f93beb84296133304873134d, type: 3}
+  m_PrefabInstance: {fileID: 2073675096}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &2073675099 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6347582275389131328, guid: 21c80616f93beb84296133304873134d, type: 3}
   m_PrefabInstance: {fileID: 2073675096}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2097640813
