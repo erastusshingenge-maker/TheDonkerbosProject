@@ -1,3 +1,4 @@
+
 using System.Collections;
 using UnityEngine;
 
@@ -9,6 +10,9 @@ public class DonkerbosFinalDoor : MonoBehaviour
 
     [Header("Choice Tracking")]
     [SerializeField] private string playerChoice = "Build";
+
+    [Header("Final Audio")]
+    [SerializeField] private AudioSource finalAudio;
 
     [Header("Ending Settings")]
     [SerializeField] private float delayBeforeFade = 2f;
@@ -34,6 +38,13 @@ public class DonkerbosFinalDoor : MonoBehaviour
 
         Debug.Log("Key inserted into door!");
 
+        // Play final audio
+        if (finalAudio != null)
+        {
+            finalAudio.loop = false;
+            finalAudio.Play();
+        }
+
         // Make the key disappear
         if (disableKeyOnTrigger)
         {
@@ -50,7 +61,9 @@ public class DonkerbosFinalDoor : MonoBehaviour
         }
         else
         {
-            Debug.LogWarning("DonkerbosChoiceTracker not found!");
+            Debug.LogWarning(
+                "DonkerbosChoiceTracker not found!"
+            );
         }
 
         StartCoroutine(EndExperience());
@@ -76,3 +89,5 @@ public class DonkerbosFinalDoor : MonoBehaviour
 #endif
     }
 }
+
+

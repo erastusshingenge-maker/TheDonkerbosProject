@@ -1,3 +1,4 @@
+
 using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -15,6 +16,10 @@ public class ObjectSceneTrigger : MonoBehaviour
     [SerializeField] private Animator characterAnimator;
     [SerializeField] private string animationTriggerName;
 
+    [Header("Character Audio")]
+    [SerializeField] private AudioSource beforeInteractionAudio;
+    [SerializeField] private AudioSource afterInteractionAudio;
+
     [Header("Scene Settings")]
     [SerializeField] private string sceneToLoad;
 
@@ -27,6 +32,27 @@ public class ObjectSceneTrigger : MonoBehaviour
     [SerializeField] private string playerChoice = "Heal";
 
     private bool hasBeenTriggered = false;
+
+    private void Start()
+    {
+        // Start looping the struggling or crying sound
+        if (beforeInteractionAudio != null)
+        {
+            beforeInteractionAudio.loop = true;
+
+            if (!beforeInteractionAudio.isPlaying)
+            {
+                beforeInteractionAudio.Play();
+            }
+        }
+
+        // Make sure recovery audio does not play initially
+        if (afterInteractionAudio != null)
+        {
+            afterInteractionAudio.loop = false;
+            afterInteractionAudio.Stop();
+        }
+    }
 
     private void OnTriggerEnter(Collider other)
     {
@@ -42,6 +68,19 @@ public class ObjectSceneTrigger : MonoBehaviour
             hasBeenTriggered = true;
 
             Debug.Log("Object received: " + requiredTag);
+
+            // Stop struggling or crying audio
+            if (beforeInteractionAudio != null)
+            {
+                beforeInteractionAudio.Stop();
+            }
+
+            // Play recovery or happy audio once
+            if (afterInteractionAudio != null)
+            {
+                afterInteractionAudio.loop = false;
+                afterInteractionAudio.Play();
+            }
 
             // Disable the incoming object
             if (disableObjectOnTrigger)
@@ -72,7 +111,9 @@ public class ObjectSceneTrigger : MonoBehaviour
             }
             else
             {
-                Debug.LogWarning("DonkerbosChoiceTracker not found!");
+                Debug.LogWarning(
+                    "DonkerbosChoiceTracker not found!"
+                );
             }
 
             StartCoroutine(ChangeScene());
@@ -87,7 +128,9 @@ public class ObjectSceneTrigger : MonoBehaviour
         // Fade to black
         if (sceneFadeSphere != null)
         {
-            yield return StartCoroutine(sceneFadeSphere.FadeOut());
+            yield return StartCoroutine(
+                sceneFadeSphere.FadeOut()
+            );
         }
 
         // Load next scene
