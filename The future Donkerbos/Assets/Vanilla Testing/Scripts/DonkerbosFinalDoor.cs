@@ -8,6 +8,9 @@ public class DonkerbosFinalDoor : MonoBehaviour
     [SerializeField] private string requiredTag = "Key";
     [SerializeField] private bool disableKeyOnTrigger = true;
 
+    [Header("Doors")]
+    [SerializeField] private GameObject[] doorsToDisable;
+
     [Header("Choice Tracking")]
     [SerializeField] private string playerChoice = "Build";
 
@@ -24,13 +27,11 @@ public class DonkerbosFinalDoor : MonoBehaviour
     {
         if (hasBeenTriggered) return;
 
-        // Find the object that entered the trigger
         GameObject incomingObject =
             other.attachedRigidbody != null
             ? other.attachedRigidbody.gameObject
             : other.gameObject;
 
-        // Check if it is the key
         if (!incomingObject.CompareTag(requiredTag))
             return;
 
@@ -43,6 +44,15 @@ public class DonkerbosFinalDoor : MonoBehaviour
         {
             finalAudio.loop = false;
             finalAudio.Play();
+        }
+
+        // Disable the doors
+        foreach (GameObject door in doorsToDisable)
+        {
+            if (door != null)
+            {
+                door.SetActive(false);
+            }
         }
 
         // Make the key disappear
@@ -71,10 +81,8 @@ public class DonkerbosFinalDoor : MonoBehaviour
 
     private IEnumerator EndExperience()
     {
-        // Wait before fading
         yield return new WaitForSeconds(delayBeforeFade);
 
-        // Fade to black
         if (sceneFade != null)
         {
             yield return StartCoroutine(sceneFade.FadeOut());
@@ -89,5 +97,3 @@ public class DonkerbosFinalDoor : MonoBehaviour
 #endif
     }
 }
-
-

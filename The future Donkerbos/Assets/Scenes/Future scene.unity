@@ -1074,6 +1074,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DonkerbosFinalDoor
   requiredTag: Key
   disableKeyOnTrigger: 1
+  doorsToDisable:
+  - {fileID: 439611497}
+  - {fileID: 439611496}
   playerChoice: Heal
   finalAudio: {fileID: 360473708}
   delayBeforeFade: 120
@@ -3809,6 +3812,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DonkerbosFinalDoor
   requiredTag: Key
   disableKeyOnTrigger: 1
+  doorsToDisable:
+  - {fileID: 1752385016}
+  - {fileID: 1752385015}
   playerChoice: Heal
   finalAudio: {fileID: 360473708}
   delayBeforeFade: 120
@@ -5672,6 +5678,26 @@ Transform:
   - {fileID: 1232540566}
   m_Father: {fileID: 1288777972}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &439611495 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5878708201539996455, guid: 338edbfe9108e43eeb47f177860e89dc, type: 3}
+  m_PrefabInstance: {fileID: 1060937095}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &439611496 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5694710904325267488, guid: 338edbfe9108e43eeb47f177860e89dc, type: 3}
+  m_PrefabInstance: {fileID: 1060937095}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &439611497 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2046016188231057459, guid: 338edbfe9108e43eeb47f177860e89dc, type: 3}
+  m_PrefabInstance: {fileID: 1060937095}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &439611498 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -7699022592565546756, guid: 338edbfe9108e43eeb47f177860e89dc, type: 3}
+  m_PrefabInstance: {fileID: 1060937095}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &439780164
 GameObject:
   m_ObjectHideFlags: 0
@@ -7687,6 +7713,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DonkerbosFinalDoor
   requiredTag: Key
   disableKeyOnTrigger: 1
+  doorsToDisable:
+  - {fileID: 1921280532}
+  - {fileID: 1921280531}
   playerChoice: Find
   finalAudio: {fileID: 360473708}
   delayBeforeFade: 120
@@ -12121,6 +12150,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DonkerbosFinalDoor
   requiredTag: Key
   disableKeyOnTrigger: 1
+  doorsToDisable:
+  - {fileID: 1883009793}
+  - {fileID: 1883009792}
   playerChoice: Find
   finalAudio: {fileID: 360473708}
   delayBeforeFade: 120
@@ -18815,6 +18847,16 @@ Transform:
   - {fileID: 348825016}
   m_Father: {fileID: 1610584192}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1557593449 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -8227949339456745294, guid: 338edbfe9108e43eeb47f177860e89dc, type: 3}
+  m_PrefabInstance: {fileID: 1060937095}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1557593450 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9084682549281860969, guid: 338edbfe9108e43eeb47f177860e89dc, type: 3}
+  m_PrefabInstance: {fileID: 1060937095}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1562910642
 GameObject:
   m_ObjectHideFlags: 0
@@ -21687,6 +21729,16 @@ Transform:
   m_Children: []
   m_Father: {fileID: 731979146}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1752385015 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7509643433974833541, guid: 338edbfe9108e43eeb47f177860e89dc, type: 3}
+  m_PrefabInstance: {fileID: 1060937095}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1752385016 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -6476572015335914768, guid: 338edbfe9108e43eeb47f177860e89dc, type: 3}
+  m_PrefabInstance: {fileID: 1060937095}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1753442903
 GameObject:
   m_ObjectHideFlags: 0
@@ -22563,6 +22615,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DonkerbosFinalDoor
   requiredTag: Key
   disableKeyOnTrigger: 1
+  doorsToDisable:
+  - {fileID: 439611498}
+  - {fileID: 439611495}
   playerChoice: Build
   finalAudio: {fileID: 360473708}
   delayBeforeFade: 120
@@ -23327,6 +23382,16 @@ Transform:
   m_Children: []
   m_Father: {fileID: 804860044}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1883009792 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6272024787106156547, guid: 338edbfe9108e43eeb47f177860e89dc, type: 3}
+  m_PrefabInstance: {fileID: 1060937095}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1883009793 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -5256443487305300763, guid: 338edbfe9108e43eeb47f177860e89dc, type: 3}
+  m_PrefabInstance: {fileID: 1060937095}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1897765168
 GameObject:
   m_ObjectHideFlags: 0
@@ -23635,6 +23700,16 @@ Transform:
   m_Children: []
   m_Father: {fileID: 747129199}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1921280531 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -4285431520611186036, guid: 338edbfe9108e43eeb47f177860e89dc, type: 3}
+  m_PrefabInstance: {fileID: 1060937095}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1921280532 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5384415362262402674, guid: 338edbfe9108e43eeb47f177860e89dc, type: 3}
+  m_PrefabInstance: {fileID: 1060937095}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1924077603
 GameObject:
   m_ObjectHideFlags: 0
@@ -24804,6 +24879,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DonkerbosFinalDoor
   requiredTag: Key
   disableKeyOnTrigger: 1
+  doorsToDisable:
+  - {fileID: 1557593450}
+  - {fileID: 1557593449}
   playerChoice: Build
   finalAudio: {fileID: 360473708}
   delayBeforeFade: 120
