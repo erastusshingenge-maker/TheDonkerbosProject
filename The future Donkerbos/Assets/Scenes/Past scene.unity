@@ -1866,255 +1866,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5b0417d3b75f4452dbaeb59def29bcec, type: 3}
   m_PrefabInstance: {fileID: 176873673}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &178202628
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 178202629}
-  - component: {fileID: 178202637}
-  - component: {fileID: 178202636}
-  - component: {fileID: 178202635}
-  - component: {fileID: 178202634}
-  - component: {fileID: 178202633}
-  - component: {fileID: 178202632}
-  - component: {fileID: 178202631}
-  - component: {fileID: 178202630}
-  m_Layer: 7
-  m_Name: Grass Wall
-  m_TagString: Grass Wall
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &178202629
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 178202628}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.4439622, y: 0.12048928, z: -0.060385596, w: 0.88585186}
-  m_LocalPosition: {x: -3.416, y: -0.454, z: 0.362}
-  m_LocalScale: {x: 0.29999992, y: 0.3, z: 0.3}
-  m_ConstrainProportionsScale: 1
-  m_Children: []
-  m_Father: {fileID: 669939086}
-  m_LocalEulerAnglesHint: {x: -50.535, y: 24.848, z: -19.672}
---- !u!114 &178202630
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 178202628}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e9a7676b01585ce43908639a27765dfc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Oculus.Interaction::Oculus.Interaction.HandGrab.HandGrabInteractable
-  _interactorFilters: []
-  _maxInteractors: -1
-  _maxSelectingInteractors: -1
-  _data: {fileID: 0}
-  _pointableElement: {fileID: 178202631}
-  _rigidbody: {fileID: 178202632}
-  _resetGrabOnGrabsUpdated: 1
-  _scoringModifier:
-    _positionRotationWeight: 0.8
-  _slippiness: 0
-  _supportedGrabTypes: 2
-  _pinchGrabRules:
-    _thumbRequirement: 1
-    _indexRequirement: 1
-    _middleRequirement: 1
-    _ringRequirement: 0
-    _pinkyRequirement: 0
-    _unselectMode: 0
-  _palmGrabRules:
-    _thumbRequirement: 1
-    _indexRequirement: 2
-    _middleRequirement: 2
-    _ringRequirement: 2
-    _pinkyRequirement: 1
-    _unselectMode: 0
-  _movementProvider: {fileID: 0}
-  _handAligment: 1
-  _handGrabPoses: []
---- !u!114 &178202631
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 178202628}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 43f86b14a27b52f4f9298c33015b5c26, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Oculus.Interaction::Oculus.Interaction.Grabbable
-  _transferOnSecondSelection: 0
-  _addNewPointsToFront: 0
-  _forwardElement: {fileID: 0}
-  _oneGrabTransformer: {fileID: 0}
-  _twoGrabTransformer: {fileID: 0}
-  _targetTransform: {fileID: 178202629}
-  _maxGrabPoints: -1
-  _rigidbody: {fileID: 178202632}
-  _kinematicWhileSelected: 1
-  _throwWhenUnselected: 1
-  _forceKinematicDisabled: 0
---- !u!54 &178202632
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 178202628}
-  serializedVersion: 5
-  m_Mass: 1
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!65 &178202633
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 178202628}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1.2837429, y: 0.33359346, z: 1.1469398}
-  m_Center: {x: -0.034764558, y: 3.2317371, z: -1.0570728}
---- !u!65 &178202634
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 178202628}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 2.74297, y: 1.0808321, z: 1.2542374}
-  m_Center: {x: -0.100181445, y: 2.487844, z: 0.14934278}
---- !u!65 &178202635
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 178202628}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 2.7452757, y: 2.0575068, z: 0.6464609}
-  m_Center: {x: -0.09903962, y: 0.9398174, z: 0.82124066}
---- !u!23 &178202636
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 178202628}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_ForceMeshLod: -1
-  m_MeshLodSelectionBias: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: -2286643300502940624, guid: 3ef3e4738fd314d648cfa856f1b0327c, type: 3}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_MaskInteraction: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &178202637
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 178202628}
-  m_Mesh: {fileID: -6668716903468770275, guid: 3ef3e4738fd314d648cfa856f1b0327c, type: 3}
 --- !u!1 &198665365
 GameObject:
   m_ObjectHideFlags: 0
@@ -2344,7 +2095,7 @@ Transform:
   m_GameObject: {fileID: 208654958}
   serializedVersion: 2
   m_LocalRotation: {x: -0.4439622, y: 0.12048928, z: -0.060385596, w: 0.88585186}
-  m_LocalPosition: {x: -3.38, y: -0.35, z: 0.44}
+  m_LocalPosition: {x: -3.86, y: -0.44, z: 0.83}
   m_LocalScale: {x: 0.29999992, y: 0.3, z: 0.3}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -2411,7 +2162,7 @@ MonoBehaviour:
   _maxGrabPoints: -1
   _rigidbody: {fileID: 208654962}
   _kinematicWhileSelected: 1
-  _throwWhenUnselected: 1
+  _throwWhenUnselected: 0
   _forceKinematicDisabled: 0
 --- !u!54 &208654962
 Rigidbody:
@@ -3995,6 +3746,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1440095113}
     m_Modifications:
     - target: {fileID: 447804476682640684, guid: 81d2cfcb0cb92f4429e085413d147648, type: 3}
+      propertyPath: requiredTag
+      value: Grass Wall
+      objectReference: {fileID: 0}
+    - target: {fileID: 447804476682640684, guid: 81d2cfcb0cb92f4429e085413d147648, type: 3}
       propertyPath: placedObject
       value: 
       objectReference: {fileID: 1654519140}
@@ -4004,19 +3759,19 @@ PrefabInstance:
       objectReference: {fileID: 269328851}
     - target: {fileID: 1323592304501236792, guid: 81d2cfcb0cb92f4429e085413d147648, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.305
+      value: 0.033288002
       objectReference: {fileID: 0}
     - target: {fileID: 1323592304501236792, guid: 81d2cfcb0cb92f4429e085413d147648, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.8
+      value: 0.57500005
       objectReference: {fileID: 0}
     - target: {fileID: 1323592304501236792, guid: 81d2cfcb0cb92f4429e085413d147648, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.37
+      value: 0.15785837
       objectReference: {fileID: 0}
     - target: {fileID: 1323592304501236792, guid: 81d2cfcb0cb92f4429e085413d147648, type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.88999534
+      value: -0.9095844
       objectReference: {fileID: 0}
     - target: {fileID: 1323592304501236792, guid: 81d2cfcb0cb92f4429e085413d147648, type: 3}
       propertyPath: m_LocalRotation.x
@@ -4024,7 +3779,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1323592304501236792, guid: 81d2cfcb0cb92f4429e085413d147648, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.45596963
+      value: -0.41551927
       objectReference: {fileID: 0}
     - target: {fileID: 1323592304501236792, guid: 81d2cfcb0cb92f4429e085413d147648, type: 3}
       propertyPath: m_LocalRotation.z
@@ -4036,7 +3791,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1323592304501236792, guid: 81d2cfcb0cb92f4429e085413d147648, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -305.745
+      value: -310.896
       objectReference: {fileID: 0}
     - target: {fileID: 1323592304501236792, guid: 81d2cfcb0cb92f4429e085413d147648, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -4052,7 +3807,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5219381608652906567, guid: 81d2cfcb0cb92f4429e085413d147648, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9036256133916431904, guid: 81d2cfcb0cb92f4429e085413d147648, type: 3}
       propertyPath: m_LocalScale.x
@@ -4500,7 +4255,7 @@ MonoBehaviour:
   _maxGrabPoints: -1
   _rigidbody: {fileID: 431589011}
   _kinematicWhileSelected: 1
-  _throwWhenUnselected: 1
+  _throwWhenUnselected: 0
   _forceKinematicDisabled: 0
 --- !u!54 &431589011
 Rigidbody:
@@ -6338,6 +6093,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1440095113}
     m_Modifications:
     - target: {fileID: 447804476682640684, guid: 81d2cfcb0cb92f4429e085413d147648, type: 3}
+      propertyPath: requiredTag
+      value: Grass Wall
+      objectReference: {fileID: 0}
+    - target: {fileID: 447804476682640684, guid: 81d2cfcb0cb92f4429e085413d147648, type: 3}
       propertyPath: placedObject
       value: 
       objectReference: {fileID: 1247845443}
@@ -6347,15 +6106,15 @@ PrefabInstance:
       objectReference: {fileID: 269328851}
     - target: {fileID: 1323592304501236792, guid: 81d2cfcb0cb92f4429e085413d147648, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.34
+      value: -1.239
       objectReference: {fileID: 0}
     - target: {fileID: 1323592304501236792, guid: 81d2cfcb0cb92f4429e085413d147648, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.61
+      value: 0.59
       objectReference: {fileID: 0}
     - target: {fileID: 1323592304501236792, guid: 81d2cfcb0cb92f4429e085413d147648, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.55
+      value: 0.017
       objectReference: {fileID: 0}
     - target: {fileID: 1323592304501236792, guid: 81d2cfcb0cb92f4429e085413d147648, type: 3}
       propertyPath: m_LocalRotation.w
@@ -6395,7 +6154,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5219381608652906567, guid: 81d2cfcb0cb92f4429e085413d147648, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9036256133916431904, guid: 81d2cfcb0cb92f4429e085413d147648, type: 3}
       propertyPath: m_LocalScale.x
@@ -6524,7 +6283,7 @@ MonoBehaviour:
   _maxGrabPoints: -1
   _rigidbody: {fileID: 613169063}
   _kinematicWhileSelected: 1
-  _throwWhenUnselected: 1
+  _throwWhenUnselected: 0
   _forceKinematicDisabled: 0
 --- !u!54 &613169063
 Rigidbody:
@@ -6898,6 +6657,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1440095113}
     m_Modifications:
     - target: {fileID: 447804476682640684, guid: 81d2cfcb0cb92f4429e085413d147648, type: 3}
+      propertyPath: requiredTag
+      value: Grass Wall
+      objectReference: {fileID: 0}
+    - target: {fileID: 447804476682640684, guid: 81d2cfcb0cb92f4429e085413d147648, type: 3}
       propertyPath: placedObject
       value: 
       objectReference: {fileID: 205251754}
@@ -6955,7 +6718,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5219381608652906567, guid: 81d2cfcb0cb92f4429e085413d147648, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9036256133916431904, guid: 81d2cfcb0cb92f4429e085413d147648, type: 3}
       propertyPath: m_LocalScale.x
@@ -7015,38 +6778,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1974793431}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &669939085
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 669939086}
-  m_Layer: 0
-  m_Name: Grass Wall (7)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &669939086
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 669939085}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.16875108, z: -0, w: 0.98565876}
-  m_LocalPosition: {x: 9.574354, y: 3.22261, z: -2.6776967}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 178202629}
-  m_Father: {fileID: 1600016475}
-  m_LocalEulerAnglesHint: {x: 0, y: -19.43, z: 0}
 --- !u!1 &671338627
 GameObject:
   m_ObjectHideFlags: 0
@@ -9959,7 +9690,7 @@ MonoBehaviour:
   _maxGrabPoints: -1
   _rigidbody: {fileID: 1029362481}
   _kinematicWhileSelected: 1
-  _throwWhenUnselected: 1
+  _throwWhenUnselected: 0
   _forceKinematicDisabled: 0
 --- !u!54 &1029362481
 Rigidbody:
@@ -10273,6 +10004,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1440095113}
     m_Modifications:
     - target: {fileID: 447804476682640684, guid: 81d2cfcb0cb92f4429e085413d147648, type: 3}
+      propertyPath: requiredTag
+      value: Grass Wall
+      objectReference: {fileID: 0}
+    - target: {fileID: 447804476682640684, guid: 81d2cfcb0cb92f4429e085413d147648, type: 3}
       propertyPath: placedObject
       value: 
       objectReference: {fileID: 1710687876}
@@ -10282,19 +10017,19 @@ PrefabInstance:
       objectReference: {fileID: 269328851}
     - target: {fileID: 1323592304501236792, guid: 81d2cfcb0cb92f4429e085413d147648, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.31
+      value: 0.53418446
       objectReference: {fileID: 0}
     - target: {fileID: 1323592304501236792, guid: 81d2cfcb0cb92f4429e085413d147648, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.617
+      value: 0.6170001
       objectReference: {fileID: 0}
     - target: {fileID: 1323592304501236792, guid: 81d2cfcb0cb92f4429e085413d147648, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.16
+      value: 0.59516525
       objectReference: {fileID: 0}
     - target: {fileID: 1323592304501236792, guid: 81d2cfcb0cb92f4429e085413d147648, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.99931395
+      value: 0.970075
       objectReference: {fileID: 0}
     - target: {fileID: 1323592304501236792, guid: 81d2cfcb0cb92f4429e085413d147648, type: 3}
       propertyPath: m_LocalRotation.x
@@ -10302,7 +10037,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1323592304501236792, guid: 81d2cfcb0cb92f4429e085413d147648, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.037035283
+      value: 0.24280562
       objectReference: {fileID: 0}
     - target: {fileID: 1323592304501236792, guid: 81d2cfcb0cb92f4429e085413d147648, type: 3}
       propertyPath: m_LocalRotation.z
@@ -10314,7 +10049,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1323592304501236792, guid: 81d2cfcb0cb92f4429e085413d147648, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 4.245
+      value: 28.104
       objectReference: {fileID: 0}
     - target: {fileID: 1323592304501236792, guid: 81d2cfcb0cb92f4429e085413d147648, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -10330,7 +10065,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5219381608652906567, guid: 81d2cfcb0cb92f4429e085413d147648, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9036256133916431904, guid: 81d2cfcb0cb92f4429e085413d147648, type: 3}
       propertyPath: m_LocalScale.x
@@ -12356,7 +12091,7 @@ Transform:
   m_GameObject: {fileID: 1215029238}
   serializedVersion: 2
   m_LocalRotation: {x: -0.4439622, y: 0.12048928, z: -0.060385596, w: 0.88585186}
-  m_LocalPosition: {x: 0.674, y: -0.767, z: 0.12}
+  m_LocalPosition: {x: -6.41, y: -0.21, z: 0.12}
   m_LocalScale: {x: 0.29999992, y: 0.3, z: 0.3}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -12423,7 +12158,7 @@ MonoBehaviour:
   _maxGrabPoints: -1
   _rigidbody: {fileID: 1215029242}
   _kinematicWhileSelected: 1
-  _throwWhenUnselected: 1
+  _throwWhenUnselected: 0
   _forceKinematicDisabled: 0
 --- !u!54 &1215029242
 Rigidbody:
@@ -12889,255 +12624,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1945253247932257473, guid: 3ef3e4738fd314d648cfa856f1b0327c, type: 3}
   m_PrefabInstance: {fileID: 475679108}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1279662566
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1279662567}
-  - component: {fileID: 1279662575}
-  - component: {fileID: 1279662574}
-  - component: {fileID: 1279662573}
-  - component: {fileID: 1279662572}
-  - component: {fileID: 1279662571}
-  - component: {fileID: 1279662570}
-  - component: {fileID: 1279662569}
-  - component: {fileID: 1279662568}
-  m_Layer: 7
-  m_Name: Grass Wall
-  m_TagString: Grass Wall
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1279662567
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1279662566}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.4439622, y: 0.12048928, z: -0.060385596, w: 0.88585186}
-  m_LocalPosition: {x: -3.422, y: -0.47, z: 0.35}
-  m_LocalScale: {x: 0.29999992, y: 0.3, z: 0.3}
-  m_ConstrainProportionsScale: 1
-  m_Children: []
-  m_Father: {fileID: 1470167644}
-  m_LocalEulerAnglesHint: {x: -50.535, y: 24.848, z: -19.672}
---- !u!114 &1279662568
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1279662566}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e9a7676b01585ce43908639a27765dfc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Oculus.Interaction::Oculus.Interaction.HandGrab.HandGrabInteractable
-  _interactorFilters: []
-  _maxInteractors: -1
-  _maxSelectingInteractors: -1
-  _data: {fileID: 0}
-  _pointableElement: {fileID: 1279662569}
-  _rigidbody: {fileID: 1279662570}
-  _resetGrabOnGrabsUpdated: 1
-  _scoringModifier:
-    _positionRotationWeight: 0.8
-  _slippiness: 0
-  _supportedGrabTypes: 2
-  _pinchGrabRules:
-    _thumbRequirement: 1
-    _indexRequirement: 1
-    _middleRequirement: 1
-    _ringRequirement: 0
-    _pinkyRequirement: 0
-    _unselectMode: 0
-  _palmGrabRules:
-    _thumbRequirement: 1
-    _indexRequirement: 2
-    _middleRequirement: 2
-    _ringRequirement: 2
-    _pinkyRequirement: 1
-    _unselectMode: 0
-  _movementProvider: {fileID: 0}
-  _handAligment: 1
-  _handGrabPoses: []
---- !u!114 &1279662569
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1279662566}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 43f86b14a27b52f4f9298c33015b5c26, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Oculus.Interaction::Oculus.Interaction.Grabbable
-  _transferOnSecondSelection: 0
-  _addNewPointsToFront: 0
-  _forwardElement: {fileID: 0}
-  _oneGrabTransformer: {fileID: 0}
-  _twoGrabTransformer: {fileID: 0}
-  _targetTransform: {fileID: 1279662567}
-  _maxGrabPoints: -1
-  _rigidbody: {fileID: 1279662570}
-  _kinematicWhileSelected: 1
-  _throwWhenUnselected: 1
-  _forceKinematicDisabled: 0
---- !u!54 &1279662570
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1279662566}
-  serializedVersion: 5
-  m_Mass: 1
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!65 &1279662571
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1279662566}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1.2837429, y: 0.33359346, z: 1.1469398}
-  m_Center: {x: -0.034764558, y: 3.2317371, z: -1.0570728}
---- !u!65 &1279662572
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1279662566}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 2.74297, y: 1.0808321, z: 1.2542374}
-  m_Center: {x: -0.100181445, y: 2.487844, z: 0.14934278}
---- !u!65 &1279662573
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1279662566}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 2.7452757, y: 2.0575068, z: 0.6464609}
-  m_Center: {x: -0.09903962, y: 0.9398174, z: 0.82124066}
---- !u!23 &1279662574
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1279662566}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_ForceMeshLod: -1
-  m_MeshLodSelectionBias: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: -2286643300502940624, guid: 3ef3e4738fd314d648cfa856f1b0327c, type: 3}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_MaskInteraction: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &1279662575
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1279662566}
-  m_Mesh: {fileID: -6668716903468770275, guid: 3ef3e4738fd314d648cfa856f1b0327c, type: 3}
 --- !u!1001 &1281375787
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15487,38 +14973,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 1b3fd86c72f9720439760e110c1bd070, type: 3}
   m_PrefabInstance: {fileID: 1467323605}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1470167643
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1470167644}
-  m_Layer: 0
-  m_Name: Grass Wall (5)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1470167644
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1470167643}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.61087286, z: -0, w: 0.79172873}
-  m_LocalPosition: {x: 11.553989, y: 3.50961, z: -0.6892899}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1279662567}
-  m_Father: {fileID: 1600016475}
-  m_LocalEulerAnglesHint: {x: 0, y: -75.305, z: 0}
 --- !u!1 &1475779287
 GameObject:
   m_ObjectHideFlags: 0
@@ -16540,6 +15994,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1440095113}
     m_Modifications:
     - target: {fileID: 447804476682640684, guid: 81d2cfcb0cb92f4429e085413d147648, type: 3}
+      propertyPath: requiredTag
+      value: Grass Wall
+      objectReference: {fileID: 0}
+    - target: {fileID: 447804476682640684, guid: 81d2cfcb0cb92f4429e085413d147648, type: 3}
       propertyPath: placedObject
       value: 
       objectReference: {fileID: 1361379471}
@@ -16597,7 +16055,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5219381608652906567, guid: 81d2cfcb0cb92f4429e085413d147648, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9036256133916431904, guid: 81d2cfcb0cb92f4429e085413d147648, type: 3}
       propertyPath: m_LocalScale.x
@@ -16866,8 +16324,6 @@ Transform:
   - {fileID: 988124775}
   - {fileID: 1556972443}
   - {fileID: 1880779939}
-  - {fileID: 1470167644}
-  - {fileID: 669939086}
   - {fileID: 1061459763}
   m_Father: {fileID: 599073432}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -18303,7 +17759,7 @@ MonoBehaviour:
   _maxGrabPoints: -1
   _rigidbody: {fileID: 1749625125}
   _kinematicWhileSelected: 1
-  _throwWhenUnselected: 1
+  _throwWhenUnselected: 0
   _forceKinematicDisabled: 0
 --- !u!54 &1749625125
 Rigidbody:
@@ -22029,6 +21485,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1440095113}
     m_Modifications:
     - target: {fileID: 447804476682640684, guid: 81d2cfcb0cb92f4429e085413d147648, type: 3}
+      propertyPath: requiredTag
+      value: Grass Wall
+      objectReference: {fileID: 0}
+    - target: {fileID: 447804476682640684, guid: 81d2cfcb0cb92f4429e085413d147648, type: 3}
       propertyPath: placedObject
       value: 
       objectReference: {fileID: 1545533722}
@@ -22086,7 +21546,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5219381608652906567, guid: 81d2cfcb0cb92f4429e085413d147648, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9036256133916431904, guid: 81d2cfcb0cb92f4429e085413d147648, type: 3}
       propertyPath: m_LocalScale.x
