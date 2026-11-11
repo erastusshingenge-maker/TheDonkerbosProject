@@ -111,7 +111,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2.8394394, y: 3.6224332, z: 2.903347}
+  m_Size: {x: 233, y: 233, z: 233}
   m_Center: {x: 0.50885946, y: 1.722052, z: 0.0016037214}
 --- !u!114 &447804476682640684
 MonoBehaviour:
@@ -126,7 +126,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObjectPlacement
   stageManager: {fileID: 0}
-  requiredTag: Grass Walll
+  requiredTag: Grass Wall
   placedObject: {fileID: 0}
 --- !u!1 &5219381608652906567
 GameObject:
